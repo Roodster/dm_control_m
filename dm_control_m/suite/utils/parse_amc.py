@@ -17,7 +17,7 @@
 
 import collections
 
-from dm_control.mujoco import math as mjmath
+from dm_control_M.mujoco import math as mjmath
 import numpy as np
 from scipy import interpolate
 

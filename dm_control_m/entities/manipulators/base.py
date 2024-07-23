@@ -17,12 +17,12 @@
 
 import abc
 
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer import define
-from dm_control.composer.observation import observable
-from dm_control.mujoco.wrapper import mjbindings
-from dm_control.utils import inverse_kinematics
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer import define
+from dm_control_M.composer.observation import observable
+from dm_control_M.mujoco.wrapper import mjbindings
+from dm_control_M.utils import inverse_kinematics
 import numpy as np
 
 

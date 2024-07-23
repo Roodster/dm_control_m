@@ -15,9 +15,9 @@
 """Bowl arena with bumps."""
 
 
-from dm_control import composer
-from dm_control.locomotion.arenas import assets as locomotion_arenas_assets
-from dm_control.mujoco.wrapper import mjbindings
+from dm_control_M import composer
+from dm_control_M.locomotion.arenas import assets as locomotion_arenas_assets
+from dm_control_M.mujoco.wrapper import mjbindings
 import numpy as np
 from scipy import ndimage
 

@@ -15,10 +15,10 @@
 """Tests for props.target_sphere."""
 
 from absl.testing import absltest
-from dm_control import composer
-from dm_control.entities.props import primitive
-from dm_control.locomotion.arenas import floors
-from dm_control.locomotion.props import target_sphere
+from dm_control_M import composer
+from dm_control_M.entities.props import primitive
+from dm_control_M.locomotion.arenas import floors
+from dm_control_M.locomotion.props import target_sphere
 
 
 class TargetSphereTest(absltest.TestCase):

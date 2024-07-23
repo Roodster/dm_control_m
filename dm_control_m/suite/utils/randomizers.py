@@ -16,7 +16,7 @@
 """Randomization functions."""
 
 
-from dm_control.mujoco.wrapper import mjbindings
+from dm_control_M.mujoco.wrapper import mjbindings
 import numpy as np
 
 

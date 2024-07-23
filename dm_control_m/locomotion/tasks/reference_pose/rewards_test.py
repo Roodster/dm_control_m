@@ -15,7 +15,7 @@
 """Tests for dm_control.locomotion.tasks.reference_pose.rewards."""
 
 from absl.testing import absltest
-from dm_control.locomotion.tasks.reference_pose import rewards
+from dm_control_M.locomotion.tasks.reference_pose import rewards
 import numpy as np
 
 WALKER_FEATURES = {

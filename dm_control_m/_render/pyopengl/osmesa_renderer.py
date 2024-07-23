@@ -17,8 +17,8 @@
 
 import os
 
-from dm_control._render import base
-from dm_control._render import constants
+from dm_control_M._render import base
+from dm_control_M._render import constants
 
 PYOPENGL_PLATFORM = os.environ.get(constants.PYOPENGL_PLATFORM)
 

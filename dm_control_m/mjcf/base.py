@@ -17,7 +17,7 @@
 
 import abc
 
-from dm_control.mjcf import constants
+from dm_control_M.mjcf import constants
 
 
 class Element(metaclass=abc.ABCMeta):

@@ -16,7 +16,7 @@
 """A global registry of constructors for manipulation environments."""
 
 
-from dm_control.utils import containers
+from dm_control_M.utils import containers
 
 _ALL_CONSTRUCTORS = containers.TaggedTasks(allow_overriding_keys=False)
 

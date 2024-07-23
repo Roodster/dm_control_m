@@ -20,11 +20,11 @@ import unittest
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.entities.manipulators import kinova
-from dm_control.entities.manipulators.kinova import jaco_arm
-from dm_control.mujoco.wrapper import mjbindings
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.entities.manipulators import kinova
+from dm_control_M.entities.manipulators.kinova import jaco_arm
+from dm_control_M.mujoco.wrapper import mjbindings
 import numpy as np
 
 mjlib = mjbindings.mjlib

@@ -16,7 +16,7 @@
 """Functions to manage the common assets for domains."""
 
 import os
-from dm_control.utils import io as resources
+from dm_control_M.utils import io as resources
 
 _SUITE_DIR = os.path.dirname(os.path.dirname(__file__))
 _FILENAMES = [

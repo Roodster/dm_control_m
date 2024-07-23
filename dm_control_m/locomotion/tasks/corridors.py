@@ -16,9 +16,9 @@
 """Corridor-based locomotion tasks."""
 
 
-from dm_control import composer
-from dm_control.composer import variation
-from dm_control.utils import rewards
+from dm_control_M import composer
+from dm_control_M.composer import variation
+from dm_control_M.utils import rewards
 import numpy as np
 
 

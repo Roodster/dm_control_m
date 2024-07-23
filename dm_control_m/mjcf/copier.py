@@ -16,7 +16,7 @@
 """Helper object for keeping track of new elements created when copying MJCF."""
 
 
-from dm_control.mjcf import constants
+from dm_control_M.mjcf import constants
 
 
 class Copier:

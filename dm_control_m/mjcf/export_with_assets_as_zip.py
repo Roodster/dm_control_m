@@ -17,7 +17,7 @@
 import os
 import zipfile
 
-from dm_control.mjcf import constants
+from dm_control_M.mjcf import constants
 
 
 def export_with_assets_as_zip(mjcf_model, out_dir, model_name=None,

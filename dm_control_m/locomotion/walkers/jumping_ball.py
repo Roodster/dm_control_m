@@ -16,9 +16,9 @@
 
 import os
 
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.locomotion.walkers import legacy_base
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.locomotion.walkers import legacy_base
 import numpy as np
 
 _ASSETS_PATH = os.path.join(os.path.dirname(__file__),

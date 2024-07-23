@@ -20,7 +20,7 @@ https://en.wikipedia.org/wiki/Linear-quadratic_regulator#Infinite-horizon.2C_dis
 """
 
 
-from dm_control.mujoco import wrapper
+from dm_control_M.mujoco import wrapper
 import numpy as np
 import scipy.linalg as scipy_linalg
 

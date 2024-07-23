@@ -18,8 +18,8 @@ import collections
 import enum
 import itertools
 
-from dm_control import composer
-from dm_control.composer.observation import observable as dm_observable
+from dm_control_M import composer
+from dm_control_M.composer.observation import observable as dm_observable
 import numpy as np
 
 DEFAULT_ALIVE_THRESHOLD = -1.0

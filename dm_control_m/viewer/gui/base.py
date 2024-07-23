@@ -18,7 +18,7 @@ import abc
 import threading
 import time
 
-from dm_control.viewer import user_input
+from dm_control_M.viewer import user_input
 
 _DOUBLE_CLICK_INTERVAL = 0.25  # seconds
 

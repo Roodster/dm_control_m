@@ -17,7 +17,7 @@
 import collections
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control.viewer import runtime
+from dm_control_M.viewer import runtime
 import dm_env
 from dm_env import specs
 import mock

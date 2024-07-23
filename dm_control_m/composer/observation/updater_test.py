@@ -21,9 +21,9 @@ import math
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control.composer.observation import fake_physics
-from dm_control.composer.observation import observable
-from dm_control.composer.observation import updater
+from dm_control_M.composer.observation import fake_physics
+from dm_control_M.composer.observation import observable
+from dm_control_M.composer.observation import updater
 from dm_env import specs
 import numpy as np
 

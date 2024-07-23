@@ -22,9 +22,9 @@ import shutil
 import sys
 
 from absl.testing import absltest
-from dm_control import mjcf
-from dm_control.mjcf import code_for_debugging_test as test_code
-from dm_control.mjcf import debugging
+from dm_control_M import mjcf
+from dm_control_M.mjcf import code_for_debugging_test as test_code
+from dm_control_M.mjcf import debugging
 
 ORIGINAL_DEBUG_MODE = debugging.debug_mode()
 

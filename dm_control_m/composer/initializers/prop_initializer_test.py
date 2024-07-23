@@ -17,11 +17,11 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer.initializers import prop_initializer
-from dm_control.composer.variation import distributions
-from dm_control.entities import props
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer.initializers import prop_initializer
+from dm_control_M.composer.variation import distributions
+from dm_control_M.entities import props
 import numpy as np
 
 

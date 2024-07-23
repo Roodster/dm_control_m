@@ -16,7 +16,7 @@
 
 
 from absl.testing import absltest
-from dm_control.viewer import user_input
+from dm_control_M.viewer import user_input
 import mock
 
 

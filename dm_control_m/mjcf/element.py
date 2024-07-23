@@ -20,14 +20,14 @@ import copy
 import os
 import sys
 
-from dm_control.mjcf import attribute as attribute_types
-from dm_control.mjcf import base
-from dm_control.mjcf import constants
-from dm_control.mjcf import copier
-from dm_control.mjcf import debugging
-from dm_control.mjcf import namescope
-from dm_control.mjcf import schema
-from dm_control.mujoco.wrapper import util
+from dm_control_M.mjcf import attribute as attribute_types
+from dm_control_M.mjcf import base
+from dm_control_M.mjcf import constants
+from dm_control_M.mjcf import copier
+from dm_control_M.mjcf import debugging
+from dm_control_M.mjcf import namescope
+from dm_control_M.mjcf import schema
+from dm_control_M.mujoco.wrapper import util
 from lxml import etree
 import numpy as np
 

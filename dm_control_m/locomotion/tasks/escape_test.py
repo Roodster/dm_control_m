@@ -17,10 +17,10 @@
 
 from absl.testing import absltest
 
-from dm_control import composer
-from dm_control.locomotion.arenas import bowl
-from dm_control.locomotion.tasks import escape
-from dm_control.locomotion.walkers import rodent
+from dm_control_M import composer
+from dm_control_M.locomotion.arenas import bowl
+from dm_control_M.locomotion.tasks import escape
+from dm_control_M.locomotion.walkers import rodent
 import numpy as np
 
 _CONTROL_TIMESTEP = .02

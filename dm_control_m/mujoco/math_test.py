@@ -17,7 +17,7 @@
 import math
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control.mujoco import math as mjmath
+from dm_control_M.mujoco import math as mjmath
 import numpy as np
 
 

@@ -15,10 +15,10 @@
 """Tests for locomotion.arenas.padded_room."""
 
 from absl.testing import absltest
-from dm_control import mjcf
-from dm_control.locomotion.arenas import labmaze_textures
-from dm_control.locomotion.arenas import mazes
-from dm_control.locomotion.arenas import padded_room
+from dm_control_M import mjcf
+from dm_control_M.locomotion.arenas import labmaze_textures
+from dm_control_M.locomotion.arenas import mazes
+from dm_control_M.locomotion.arenas import padded_room
 
 
 class PaddedRoomTest(absltest.TestCase):

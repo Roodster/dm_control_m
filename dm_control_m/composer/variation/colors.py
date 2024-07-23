@@ -21,8 +21,8 @@ a variety of color spaces. The generated values are always RGBA arrays.
 
 import colorsys
 
-from dm_control.composer.variation import base
-from dm_control.composer.variation import variation_values
+from dm_control_M.composer.variation import base
+from dm_control_M.composer.variation import variation_values
 import numpy as np
 
 

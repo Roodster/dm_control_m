@@ -19,10 +19,10 @@ import itertools
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import mujoco
-from dm_control.mujoco.testing import assets
-from dm_control.mujoco.wrapper import mjbindings
-from dm_control.utils import inverse_kinematics as ik
+from dm_control_M import mujoco
+from dm_control_M.mujoco.testing import assets
+from dm_control_M.mujoco.wrapper import mjbindings
+from dm_control_M.utils import inverse_kinematics as ik
 import numpy as np
 
 mjlib = mjbindings.mjlib

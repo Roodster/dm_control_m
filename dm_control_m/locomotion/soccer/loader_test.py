@@ -19,7 +19,7 @@
 from absl import logging
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control.locomotion import soccer
+from dm_control_M.locomotion import soccer
 import numpy as np
 
 

@@ -20,10 +20,10 @@ import platform
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import _render
-from dm_control import mujoco
-from dm_control.mujoco.testing import decorators
-from dm_control.mujoco.testing import image_utils
+from dm_control_M import _render
+from dm_control_M import mujoco
+from dm_control_M.mujoco.testing import decorators
+from dm_control_M.mujoco.testing import image_utils
 
 
 DEBUG_IMAGE_DIR = os.environ.get('TEST_UNDECLARED_OUTPUTS_DIR',

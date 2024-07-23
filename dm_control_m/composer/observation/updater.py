@@ -19,8 +19,8 @@ import collections
 import functools
 from absl import logging
 
-from dm_control.composer import variation
-from dm_control.composer.observation import obs_buffer
+from dm_control_M.composer import variation
+from dm_control_M.composer.observation import obs_buffer
 from dm_env import specs
 import numpy as np
 

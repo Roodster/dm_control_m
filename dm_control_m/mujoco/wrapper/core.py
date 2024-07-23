@@ -23,9 +23,9 @@ import weakref
 
 from absl import logging
 
-from dm_control.mujoco.wrapper import util
+from dm_control_M.mujoco.wrapper import util
 # Some clients explicitly import core.mjlib.
-from dm_control.mujoco.wrapper.mjbindings import mjlib  # pylint: disable=unused-import
+from dm_control_M.mujoco.wrapper.mjbindings import mjlib  # pylint: disable=unused-import
 import mujoco
 import numpy as np
 

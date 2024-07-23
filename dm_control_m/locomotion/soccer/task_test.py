@@ -19,12 +19,12 @@ import unittest
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.locomotion import soccer
-from dm_control.locomotion.soccer import camera
-from dm_control.locomotion.soccer import initializers
-from dm_control.mujoco.wrapper import mjbindings
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.locomotion import soccer
+from dm_control_M.locomotion.soccer import camera
+from dm_control_M.locomotion.soccer import initializers
+from dm_control_M.mujoco.wrapper import mjbindings
 import numpy as np
 
 RGBA_BLUE = [.1, .1, .8, 1.]

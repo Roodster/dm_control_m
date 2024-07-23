@@ -18,11 +18,11 @@
 import collections
 import os
 
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer.observation import observable
-from dm_control.entities.manipulators import base
-from dm_control.entities.manipulators.kinova import assets_path
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer.observation import observable
+from dm_control_M.entities.manipulators import base
+from dm_control_M.entities.manipulators.kinova import assets_path
 
 _JACO_HAND_XML_PATH = os.path.join(assets_path.KINOVA_ROOT, 'jaco_hand.xml')
 _HAND_BODY = 'hand'

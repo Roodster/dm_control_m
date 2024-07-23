@@ -18,9 +18,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.entities.props import primitive
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.entities.props import primitive
 import numpy as np
 
 

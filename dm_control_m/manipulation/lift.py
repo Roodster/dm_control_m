@@ -18,19 +18,19 @@
 import collections
 import itertools
 
-from dm_control import composer
-from dm_control.composer import initializers
-from dm_control.composer.variation import distributions
-from dm_control.entities import props
-from dm_control.manipulation.shared import arenas
-from dm_control.manipulation.shared import cameras
-from dm_control.manipulation.shared import constants
-from dm_control.manipulation.shared import observations
-from dm_control.manipulation.shared import registry
-from dm_control.manipulation.shared import robots
-from dm_control.manipulation.shared import tags
-from dm_control.manipulation.shared import workspaces
-from dm_control.utils import rewards
+from dm_control_M import composer
+from dm_control_M.composer import initializers
+from dm_control_M.composer.variation import distributions
+from dm_control_M.entities import props
+from dm_control_M.manipulation.shared import arenas
+from dm_control_M.manipulation.shared import cameras
+from dm_control_M.manipulation.shared import constants
+from dm_control_M.manipulation.shared import observations
+from dm_control_M.manipulation.shared import registry
+from dm_control_M.manipulation.shared import robots
+from dm_control_M.manipulation.shared import tags
+from dm_control_M.manipulation.shared import workspaces
+from dm_control_M.utils import rewards
 import numpy as np
 
 

@@ -15,13 +15,13 @@
 """Tasks in the Locomotion library."""
 
 
-from dm_control.locomotion.tasks.corridors import RunThroughCorridor
-from dm_control.locomotion.tasks.escape import Escape
+from dm_control_M.locomotion.tasks.corridors import RunThroughCorridor
+from dm_control_M.locomotion.tasks.escape import Escape
 # Import1 removed.
 # Import2 removed.
-from dm_control.locomotion.tasks.go_to_target import GoToTarget
-from dm_control.locomotion.tasks.random_goal_maze import ManyGoalsMaze
-from dm_control.locomotion.tasks.random_goal_maze import ManyHeterogeneousGoalsMaze
-from dm_control.locomotion.tasks.random_goal_maze import RepeatSingleGoalMaze
-from dm_control.locomotion.tasks.random_goal_maze import RepeatSingleGoalMazeAugmentedWithTargets
-from dm_control.locomotion.tasks.reach import TwoTouch
+from dm_control_M.locomotion.tasks.go_to_target import GoToTarget
+from dm_control_M.locomotion.tasks.random_goal_maze import ManyGoalsMaze
+from dm_control_M.locomotion.tasks.random_goal_maze import ManyHeterogeneousGoalsMaze
+from dm_control_M.locomotion.tasks.random_goal_maze import RepeatSingleGoalMaze
+from dm_control_M.locomotion.tasks.random_goal_maze import RepeatSingleGoalMazeAugmentedWithTargets
+from dm_control_M.locomotion.tasks.reach import TwoTouch

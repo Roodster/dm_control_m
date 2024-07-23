@@ -24,11 +24,11 @@ import traceback
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import mjcf
-from dm_control.mjcf import element
-from dm_control.mjcf import namescope
-from dm_control.mjcf import parser
-from dm_control.mujoco.wrapper import util
+from dm_control_M import mjcf
+from dm_control_M.mjcf import element
+from dm_control_M.mjcf import namescope
+from dm_control_M.mjcf import parser
+from dm_control_M.mujoco.wrapper import util
 import lxml
 import numpy as np
 

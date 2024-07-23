@@ -18,16 +18,16 @@
 
 from absl import logging
 
-from dm_control.mujoco.wrapper.mjbindings import constants
-from dm_control.mujoco.wrapper.mjbindings import enums
-from dm_control.mujoco.wrapper.mjbindings import sizes
+from dm_control_M.mujoco.wrapper.mjbindings import constants
+from dm_control_M.mujoco.wrapper.mjbindings import enums
+from dm_control_M.mujoco.wrapper.mjbindings import sizes
 
 # Internal analytics import.
 
 # pylint: disable=g-import-not-at-top
 try:
-  from dm_control.mujoco.wrapper.mjbindings import functions
-  from dm_control.mujoco.wrapper.mjbindings.functions import mjlib
+  from dm_control_M.mujoco.wrapper.mjbindings import functions
+  from dm_control_M.mujoco.wrapper.mjbindings.functions import mjlib
   logging.info('MuJoCo library version is: %s', mjlib.mj_versionString())
   # Internal analytics.
 except (IOError, OSError):

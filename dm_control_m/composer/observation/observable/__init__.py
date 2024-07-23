@@ -15,10 +15,10 @@
 
 """Module for observables in the Composer library."""
 
-from dm_control.composer.observation.observable.base import Generic
-from dm_control.composer.observation.observable.base import MujocoCamera
-from dm_control.composer.observation.observable.base import MujocoFeature
-from dm_control.composer.observation.observable.base import Observable
+from dm_control_M.composer.observation.observable.base import Generic
+from dm_control_M.composer.observation.observable.base import MujocoCamera
+from dm_control_M.composer.observation.observable.base import MujocoFeature
+from dm_control_M.composer.observation.observable.base import Observable
 
-from dm_control.composer.observation.observable.mjcf import MJCFCamera
-from dm_control.composer.observation.observable.mjcf import MJCFFeature
+from dm_control_M.composer.observation.observable.mjcf import MJCFCamera
+from dm_control_M.composer.observation.observable.mjcf import MJCFFeature

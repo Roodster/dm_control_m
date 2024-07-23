@@ -15,10 +15,10 @@
 """Mujoco Physics viewer, with custom input controllers."""
 
 
-from dm_control.mujoco.wrapper import mjbindings
-from dm_control.viewer import renderer
-from dm_control.viewer import user_input
-from dm_control.viewer import util
+from dm_control_M.mujoco.wrapper import mjbindings
+from dm_control_M.viewer import renderer
+from dm_control_M.viewer import user_input
+from dm_control_M.viewer import util
 import mujoco
 
 functions = mjbindings.functions

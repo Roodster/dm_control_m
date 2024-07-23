@@ -17,8 +17,8 @@
 
 import threading
 from absl.testing import absltest
-from dm_control._render import base
-from dm_control._render import executor
+from dm_control_M._render import base
+from dm_control_M._render import executor
 
 WIDTH = 1024
 HEIGHT = 768

@@ -14,6 +14,6 @@
 # ============================================================================
 """Walkers for Locomotion tasks."""
 
-from dm_control.locomotion.walkers.cmu_humanoid import CMUHumanoid
-from dm_control.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlled
-from dm_control.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlledV2020
+from dm_control_M.locomotion.walkers.cmu_humanoid import CMUHumanoid
+from dm_control_M.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlled
+from dm_control_M.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlledV2020

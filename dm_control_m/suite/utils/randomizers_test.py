@@ -17,9 +17,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import mujoco
-from dm_control.mujoco.wrapper import mjbindings
-from dm_control.suite.utils import randomizers
+from dm_control_M import mujoco
+from dm_control_M.mujoco.wrapper import mjbindings
+from dm_control_M.suite.utils import randomizers
 import numpy as np
 
 mjlib = mjbindings.mjlib

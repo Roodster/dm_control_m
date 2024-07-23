@@ -15,5 +15,5 @@
 
 """Composer models of Kinova robots."""
 
-from dm_control.entities.manipulators.kinova.jaco_arm import JacoArm
-from dm_control.entities.manipulators.kinova.jaco_hand import JacoHand
+from dm_control_M.entities.manipulators.kinova.jaco_arm import JacoArm
+from dm_control_M.entities.manipulators.kinova.jaco_hand import JacoHand

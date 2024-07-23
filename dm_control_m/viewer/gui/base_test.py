@@ -16,7 +16,7 @@
 
 
 from absl.testing import absltest
-from dm_control.viewer import user_input
+from dm_control_M.viewer import user_input
 import mock
 
 
@@ -27,7 +27,7 @@ _MOCKED_MODULES = {
     'OpenGL.GL': _OPEN_GL_MOCK,
 }
 with mock.patch.dict('sys.modules', _MOCKED_MODULES):
-  from dm_control.viewer.gui import base
+  from dm_control_M.viewer.gui import base
 # pylint: enable=g-import-not-at-top
 
 _EPSILON = 1e-7

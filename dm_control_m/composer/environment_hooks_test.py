@@ -16,8 +16,8 @@
 """Tests for Entity and Task hooks in an Environment."""
 
 from absl.testing import absltest
-from dm_control import composer
-from dm_control.composer import hooks_test_utils
+from dm_control_M import composer
+from dm_control_M.composer import hooks_test_utils
 import numpy as np
 
 

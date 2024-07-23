@@ -19,8 +19,8 @@ import contextlib
 import subprocess
 import sys
 
-from dm_control.mujoco import wrapper
-from dm_control.viewer import util
+from dm_control_M.mujoco import wrapper
+from dm_control_M.viewer import util
 import mujoco
 import numpy as np
 

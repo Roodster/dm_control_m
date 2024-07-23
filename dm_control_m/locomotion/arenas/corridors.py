@@ -17,9 +17,9 @@
 
 import abc
 
-from dm_control import composer
-from dm_control.composer import variation
-from dm_control.locomotion.arenas import assets as locomotion_arenas_assets
+from dm_control_M import composer
+from dm_control_M.composer import variation
+from dm_control_M.locomotion.arenas import assets as locomotion_arenas_assets
 
 _SIDE_WALLS_GEOM_GROUP = 3
 _CORRIDOR_X_PADDING = 2.0

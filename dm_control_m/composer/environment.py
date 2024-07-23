@@ -20,9 +20,9 @@ import warnings
 import weakref
 
 from absl import logging
-from dm_control import mjcf
-from dm_control.composer import observation
-from dm_control.rl import control
+from dm_control_M import mjcf
+from dm_control_M.composer import observation
+from dm_control_M.rl import control
 import dm_env
 import numpy as np
 

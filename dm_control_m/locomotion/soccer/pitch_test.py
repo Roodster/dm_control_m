@@ -18,11 +18,11 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import composer
-from dm_control.composer.variation import distributions
-from dm_control.entities import props
-from dm_control.locomotion.soccer import pitch as pitch_lib
-from dm_control.locomotion.soccer import team as team_lib
+from dm_control_M import composer
+from dm_control_M.composer.variation import distributions
+from dm_control_M.entities import props
+from dm_control_M.locomotion.soccer import pitch as pitch_lib
+from dm_control_M.locomotion.soccer import team as team_lib
 import numpy as np
 
 

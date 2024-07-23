@@ -20,8 +20,8 @@ import pprint
 import textwrap
 
 from absl import logging
-from dm_control.autowrap import codegen_util
-from dm_control.autowrap import header_parsing
+from dm_control_M.autowrap import codegen_util
+from dm_control_M.autowrap import header_parsing
 import pyparsing
 
 

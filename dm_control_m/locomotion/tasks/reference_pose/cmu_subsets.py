@@ -14,7 +14,7 @@
 # ============================================================================
 """Subsets of the CMU mocap database."""
 
-from dm_control.locomotion.tasks.reference_pose import types
+from dm_control_M.locomotion.tasks.reference_pose import types
 
 ClipCollection = types.ClipCollection
 

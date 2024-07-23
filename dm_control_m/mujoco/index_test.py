@@ -19,10 +19,10 @@ import collections
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control.mujoco import index
-from dm_control.mujoco import wrapper
-from dm_control.mujoco.testing import assets
-from dm_control.mujoco.wrapper.mjbindings import sizes
+from dm_control_M.mujoco import index
+from dm_control_M.mujoco import wrapper
+from dm_control_M.mujoco.testing import assets
+from dm_control_M.mujoco.wrapper.mjbindings import sizes
 import mujoco
 import numpy as np
 

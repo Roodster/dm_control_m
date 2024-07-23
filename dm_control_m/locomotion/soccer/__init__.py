@@ -17,30 +17,30 @@
 
 import enum
 
-from dm_control import composer
-from dm_control.locomotion import walkers
-from dm_control.locomotion.soccer.boxhead import BoxHead
-from dm_control.locomotion.soccer.humanoid import Humanoid
-from dm_control.locomotion.soccer.initializers import Initializer
-from dm_control.locomotion.soccer.initializers import UniformInitializer
-from dm_control.locomotion.soccer.observables import CoreObservablesAdder
-from dm_control.locomotion.soccer.observables import InterceptionObservablesAdder
-from dm_control.locomotion.soccer.observables import MultiObservablesAdder
-from dm_control.locomotion.soccer.observables import ObservablesAdder
-from dm_control.locomotion.soccer.pitch import MINI_FOOTBALL_GOAL_SIZE
-from dm_control.locomotion.soccer.pitch import MINI_FOOTBALL_MAX_AREA_PER_HUMANOID
-from dm_control.locomotion.soccer.pitch import MINI_FOOTBALL_MIN_AREA_PER_HUMANOID
-from dm_control.locomotion.soccer.pitch import Pitch
-from dm_control.locomotion.soccer.pitch import RandomizedPitch
-from dm_control.locomotion.soccer.soccer_ball import regulation_soccer_ball
-from dm_control.locomotion.soccer.soccer_ball import SoccerBall
-from dm_control.locomotion.soccer.task import MultiturnTask
-from dm_control.locomotion.soccer.task import Task
-from dm_control.locomotion.soccer.team import Player
-from dm_control.locomotion.soccer.team import RGBA_BLUE
-from dm_control.locomotion.soccer.team import RGBA_RED
-from dm_control.locomotion.soccer.team import Team
-from dm_control.locomotion.walkers.initializers import mocap
+from dm_control_M import composer
+from dm_control_M.locomotion import walkers
+from dm_control_M.locomotion.soccer.boxhead import BoxHead
+from dm_control_M.locomotion.soccer.humanoid import Humanoid
+from dm_control_M.locomotion.soccer.initializers import Initializer
+from dm_control_M.locomotion.soccer.initializers import UniformInitializer
+from dm_control_M.locomotion.soccer.observables import CoreObservablesAdder
+from dm_control_M.locomotion.soccer.observables import InterceptionObservablesAdder
+from dm_control_M.locomotion.soccer.observables import MultiObservablesAdder
+from dm_control_M.locomotion.soccer.observables import ObservablesAdder
+from dm_control_M.locomotion.soccer.pitch import MINI_FOOTBALL_GOAL_SIZE
+from dm_control_M.locomotion.soccer.pitch import MINI_FOOTBALL_MAX_AREA_PER_HUMANOID
+from dm_control_M.locomotion.soccer.pitch import MINI_FOOTBALL_MIN_AREA_PER_HUMANOID
+from dm_control_M.locomotion.soccer.pitch import Pitch
+from dm_control_M.locomotion.soccer.pitch import RandomizedPitch
+from dm_control_M.locomotion.soccer.soccer_ball import regulation_soccer_ball
+from dm_control_M.locomotion.soccer.soccer_ball import SoccerBall
+from dm_control_M.locomotion.soccer.task import MultiturnTask
+from dm_control_M.locomotion.soccer.task import Task
+from dm_control_M.locomotion.soccer.team import Player
+from dm_control_M.locomotion.soccer.team import RGBA_BLUE
+from dm_control_M.locomotion.soccer.team import RGBA_RED
+from dm_control_M.locomotion.soccer.team import Team
+from dm_control_M.locomotion.walkers.initializers import mocap
 import numpy as np
 
 

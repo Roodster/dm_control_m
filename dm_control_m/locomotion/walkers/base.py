@@ -18,8 +18,8 @@
 import abc
 import collections
 
-from dm_control import composer
-from dm_control.composer.observation import observable
+from dm_control_M import composer
+from dm_control_M.composer.observation import observable
 
 from dm_env import specs
 import numpy as np

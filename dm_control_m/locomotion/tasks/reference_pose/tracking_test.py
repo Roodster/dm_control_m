@@ -18,16 +18,16 @@ import os
 from absl.testing import absltest
 from absl.testing import parameterized
 
-from dm_control import composer
-from dm_control.locomotion import arenas
-from dm_control.locomotion import walkers
-from dm_control.locomotion.mocap import props
-from dm_control.locomotion.tasks.reference_pose import tracking
-from dm_control.locomotion.tasks.reference_pose import types
+from dm_control_M import composer
+from dm_control_M.locomotion import arenas
+from dm_control_M.locomotion import walkers
+from dm_control_M.locomotion.mocap import props
+from dm_control_M.locomotion.tasks.reference_pose import tracking
+from dm_control_M.locomotion.tasks.reference_pose import types
 
 import numpy as np
 
-from dm_control.utils import io as resources
+from dm_control_M.utils import io as resources
 
 TEST_FILE_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), '../../mocap'))
 TEST_FILE_PATH = os.path.join(TEST_FILE_DIR, 'test_trajectories.h5')

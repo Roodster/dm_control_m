@@ -17,7 +17,7 @@
 import contextlib
 
 from absl.testing import absltest
-from dm_control.viewer import user_input
+from dm_control_M.viewer import user_input
 import mock
 import numpy as np
 
@@ -30,7 +30,7 @@ _MOCKED_MODULES = {
     'glfw': _GLFW_MOCK,
 }
 with mock.patch.dict('sys.modules', _MOCKED_MODULES):
-  from dm_control.viewer.gui import glfw_gui  # pylint: disable=g-import-not-at-top
+  from dm_control_M.viewer.gui import glfw_gui  # pylint: disable=g-import-not-at-top
 
 glfw_gui.base.GL = _OPEN_GL_MOCK
 glfw_gui.base.shaders = _OPEN_GL_MOCK

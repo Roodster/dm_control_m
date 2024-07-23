@@ -15,8 +15,8 @@
 """A non-colliding sphere that is activated through touch."""
 
 
-from dm_control import composer
-from dm_control import mjcf
+from dm_control_M import composer
+from dm_control_M import mjcf
 
 
 class TargetSphere(composer.Entity):

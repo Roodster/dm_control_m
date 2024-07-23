@@ -17,17 +17,17 @@
 
 import functools
 
-from dm_control import composer
-from dm_control.composer.variation import distributions
-from dm_control.locomotion.arenas import corridors as corr_arenas
-from dm_control.locomotion.arenas import floors
-from dm_control.locomotion.arenas import labmaze_textures
-from dm_control.locomotion.arenas import mazes
-from dm_control.locomotion.props import target_sphere
-from dm_control.locomotion.tasks import corridors as corr_tasks
-from dm_control.locomotion.tasks import go_to_target
-from dm_control.locomotion.tasks import random_goal_maze
-from dm_control.locomotion.walkers import cmu_humanoid
+from dm_control_M import composer
+from dm_control_M.composer.variation import distributions
+from dm_control_M.locomotion.arenas import corridors as corr_arenas
+from dm_control_M.locomotion.arenas import floors
+from dm_control_M.locomotion.arenas import labmaze_textures
+from dm_control_M.locomotion.arenas import mazes
+from dm_control_M.locomotion.props import target_sphere
+from dm_control_M.locomotion.tasks import corridors as corr_tasks
+from dm_control_M.locomotion.tasks import go_to_target
+from dm_control_M.locomotion.tasks import random_goal_maze
+from dm_control_M.locomotion.walkers import cmu_humanoid
 from labmaze import fixed_maze
 
 

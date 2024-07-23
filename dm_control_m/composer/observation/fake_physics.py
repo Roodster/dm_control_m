@@ -17,8 +17,8 @@
 
 import contextlib
 
-from dm_control.composer.observation import observable
-from dm_control.rl import control
+from dm_control_M.composer.observation import observable
+from dm_control_M.rl import control
 import numpy as np
 
 

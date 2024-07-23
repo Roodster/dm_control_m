@@ -21,10 +21,10 @@ spatial parameters such as target sizes.
 """
 
 import collections
-from dm_control.composer.variation import distributions
-from dm_control.composer.variation import rotations
-from dm_control.entities.manipulators import base
-from dm_control.manipulation.shared import constants
+from dm_control_M.composer.variation import distributions
+from dm_control_M.composer.variation import rotations
+from dm_control_M.entities.manipulators import base
+from dm_control_M.manipulation.shared import constants
 import numpy as np
 
 

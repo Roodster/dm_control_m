@@ -16,7 +16,7 @@
 """Suite environments viewer package."""
 
 
-from dm_control.viewer import application
+from dm_control_M.viewer import application
 
 
 def launch(environment_loader, policy=None, title='Explorer', width=1024,

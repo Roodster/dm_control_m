@@ -17,14 +17,14 @@
 
 from absl import app
 
-from dm_control import composer
-from dm_control import viewer
+from dm_control_M import composer
+from dm_control_M import viewer
 
-from dm_control.locomotion import arenas
-from dm_control.locomotion import walkers
+from dm_control_M.locomotion import arenas
+from dm_control_M.locomotion import walkers
 
-from dm_control.locomotion.mocap import cmu_mocap_data
-from dm_control.locomotion.tasks.reference_pose import tracking
+from dm_control_M.locomotion.mocap import cmu_mocap_data
+from dm_control_M.locomotion.tasks.reference_pose import tracking
 
 
 def mocap_playback_env(random_state=None):

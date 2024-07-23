@@ -14,7 +14,7 @@
 # ============================================================================
 """Viewer's windowing systems."""
 
-from dm_control import _render
+from dm_control_M import _render
 
 # pylint: disable=g-import-not-at-top
 # pylint: disable=invalid-name
@@ -22,7 +22,7 @@ from dm_control import _render
 RenderWindow = None
 
 try:
-  from dm_control.viewer.gui import glfw_gui
+  from dm_control_M.viewer.gui import glfw_gui
   RenderWindow = glfw_gui.GlfwWindow
 except ImportError:
   pass

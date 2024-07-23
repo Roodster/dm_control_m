@@ -15,10 +15,10 @@
 
 """An initializer that sets the pose of a hand's tool center point."""
 
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer import variation
-from dm_control.entities.manipulators import base
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer import variation
+from dm_control_M.entities.manipulators import base
 
 
 _REJECTION_SAMPLING_FAILED = (

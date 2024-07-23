@@ -14,8 +14,8 @@
 # ============================================================================
 """Utils for reference pose tasks."""
 
-from dm_control import mjcf
-from dm_control.utils import transformations as tr
+from dm_control_M import mjcf
+from dm_control_M.utils import transformations as tr
 import numpy as np
 
 

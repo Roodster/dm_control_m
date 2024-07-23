@@ -17,11 +17,11 @@
 
 
 from absl.testing import absltest
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.entities import props
-from dm_control.locomotion.soccer import soccer_ball
-from dm_control.locomotion.soccer import team
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.entities import props
+from dm_control_M.locomotion.soccer import soccer_ball
+from dm_control_M.locomotion.soccer import team
 import numpy as np
 
 

@@ -19,27 +19,27 @@ import collections
 import inspect
 import itertools
 
-from dm_control.rl import control
+from dm_control_M.rl import control
 
-from dm_control.suite import acrobot
-from dm_control.suite import ball_in_cup
-from dm_control.suite import cartpole
-from dm_control.suite import cheetah
-from dm_control.suite import dog
-from dm_control.suite import finger
-from dm_control.suite import fish
-from dm_control.suite import hopper
-from dm_control.suite import humanoid
-from dm_control.suite import humanoid_CMU
-from dm_control.suite import lqr
-from dm_control.suite import manipulator
-from dm_control.suite import pendulum
-from dm_control.suite import point_mass
-from dm_control.suite import quadruped
-from dm_control.suite import reacher
-from dm_control.suite import stacker
-from dm_control.suite import swimmer
-from dm_control.suite import walker
+from dm_control_M.suite import acrobot
+from dm_control_M.suite import ball_in_cup
+from dm_control_M.suite import cartpole
+from dm_control_M.suite import cheetah
+from dm_control_M.suite import dog
+from dm_control_M.suite import finger
+from dm_control_M.suite import fish
+from dm_control_M.suite import hopper
+from dm_control_M.suite import humanoid
+from dm_control_M.suite import humanoid_CMU
+from dm_control_M.suite import lqr
+from dm_control_M.suite import manipulator
+from dm_control_M.suite import pendulum
+from dm_control_M.suite import point_mass
+from dm_control_M.suite import quadruped
+from dm_control_M.suite import reacher
+from dm_control_M.suite import stacker
+from dm_control_M.suite import swimmer
+from dm_control_M.suite import walker
 
 # Find all domains imported.
 _DOMAINS = {name: module for name, module in locals().items()

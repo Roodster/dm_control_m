@@ -17,12 +17,12 @@
 
 import collections
 
-from dm_control import mujoco
-from dm_control.rl import control
-from dm_control.suite import base
-from dm_control.suite import common
-from dm_control.suite.utils import randomizers
-from dm_control.utils import containers
+from dm_control_M import mujoco
+from dm_control_M.rl import control
+from dm_control_M.suite import base
+from dm_control_M.suite import common
+from dm_control_M.suite.utils import randomizers
+from dm_control_M.utils import containers
 import numpy as np
 
 _DEFAULT_TIME_LIMIT = 20  # (seconds)

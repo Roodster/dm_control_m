@@ -16,8 +16,8 @@
 """Deterministic variations."""
 
 
-from dm_control.composer.variation import base
-from dm_control.composer.variation.variation_values import evaluate
+from dm_control_M.composer.variation import base
+from dm_control_M.composer.variation.variation_values import evaluate
 
 
 class Constant(base.Variation):

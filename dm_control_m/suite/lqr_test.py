@@ -20,8 +20,8 @@ import  math
 from absl import logging
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control.suite import lqr
-from dm_control.suite import lqr_solver
+from dm_control_M.suite import lqr
+from dm_control_M.suite import lqr_solver
 import numpy as np
 
 

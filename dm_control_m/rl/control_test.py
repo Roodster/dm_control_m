@@ -17,7 +17,7 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control.rl import control
+from dm_control_M.rl import control
 from dm_env import specs
 import mock
 import numpy as np

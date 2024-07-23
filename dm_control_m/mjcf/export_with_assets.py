@@ -17,8 +17,8 @@
 
 import os
 
-from dm_control.mjcf import constants
-from dm_control.mujoco.wrapper import util
+from dm_control_M.mjcf import constants
+from dm_control_M.mujoco.wrapper import util
 
 
 def export_with_assets(mjcf_model, out_dir, out_file_name=None,

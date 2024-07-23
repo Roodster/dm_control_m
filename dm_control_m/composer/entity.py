@@ -21,9 +21,9 @@ import os
 import weakref
 
 from absl import logging
-from dm_control import mjcf
-from dm_control.composer import define
-from dm_control.mujoco.wrapper import mjbindings
+from dm_control_M import mjcf
+from dm_control_M.composer import define
+from dm_control_M.mujoco.wrapper import mjbindings
 import numpy as np
 
 _OPTION_KEYS = set(['update_interval', 'buffer_size', 'delay', 'aggregator',

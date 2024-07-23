@@ -16,7 +16,7 @@
 """Utility functions."""
 
 
-from dm_control.mujoco.wrapper.mjbindings import mjlib
+from dm_control_M.mujoco.wrapper.mjbindings import mjlib
 import numpy as np
 
 

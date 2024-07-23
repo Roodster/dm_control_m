@@ -18,10 +18,10 @@
 import collections
 import os
 
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer import define
-from dm_control.composer.observation import observable
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer import define
+from dm_control_M.composer.observation import observable
 import numpy as np
 
 _DUPLO_XML_PATH = os.path.join(os.path.dirname(__file__), 'duplo2x4.xml')

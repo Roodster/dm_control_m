@@ -16,13 +16,13 @@
 """Produces reference environments for CMU humanoid tracking task."""
 
 
-from dm_control import composer
-from dm_control.locomotion import arenas
+from dm_control_M import composer
+from dm_control_M.locomotion import arenas
 
-from dm_control.locomotion.mocap import cmu_mocap_data
-from dm_control.locomotion.tasks.reference_pose import tracking
+from dm_control_M.locomotion.mocap import cmu_mocap_data
+from dm_control_M.locomotion.tasks.reference_pose import tracking
 
-from dm_control.locomotion.walkers import cmu_humanoid
+from dm_control_M.locomotion.walkers import cmu_humanoid
 
 
 def cmu_humanoid_tracking(random_state=None):

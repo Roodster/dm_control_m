@@ -16,8 +16,8 @@
 
 import abc
 
-from dm_control.composer.observation import observable as base_observable
-from dm_control.locomotion.soccer import team as team_lib
+from dm_control_M.composer.observation import observable as base_observable
+from dm_control_M.locomotion.soccer import team as team_lib
 import numpy as np
 
 

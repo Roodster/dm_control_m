@@ -15,11 +15,11 @@
 """Escape locomotion tasks."""
 
 
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer.observation import observable as base_observable
-from dm_control.rl import control
-from dm_control.utils import rewards
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer.observation import observable as base_observable
+from dm_control_M.rl import control
+from dm_control_M.utils import rewards
 import numpy as np
 
 # Constants related to terrain generation.

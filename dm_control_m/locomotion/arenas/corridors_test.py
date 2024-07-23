@@ -18,9 +18,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import mjcf
-from dm_control.composer.variation import deterministic
-from dm_control.locomotion.arenas import corridors
+from dm_control_M import mjcf
+from dm_control_M.composer.variation import deterministic
+from dm_control_M.locomotion.arenas import corridors
 
 
 class CorridorsTest(parameterized.TestCase):

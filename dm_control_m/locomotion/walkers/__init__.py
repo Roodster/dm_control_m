@@ -14,10 +14,10 @@
 # ============================================================================
 """Walkers for Locomotion tasks."""
 
-from dm_control.locomotion.walkers.ant import Ant
-from dm_control.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlled
-from dm_control.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlledV2020
+from dm_control_M.locomotion.walkers.ant import Ant
+from dm_control_M.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlled
+from dm_control_M.locomotion.walkers.cmu_humanoid import CMUHumanoidPositionControlledV2020
 # Import removed.
-from dm_control.locomotion.walkers.jumping_ball import JumpingBallWithHead
-from dm_control.locomotion.walkers.jumping_ball import RollingBallWithHead
-from dm_control.locomotion.walkers.rodent import Rat
+from dm_control_M.locomotion.walkers.jumping_ball import JumpingBallWithHead
+from dm_control_M.locomotion.walkers.jumping_ball import RollingBallWithHead
+from dm_control_M.locomotion.walkers.rodent import Rat

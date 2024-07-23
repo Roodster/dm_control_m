@@ -19,12 +19,12 @@ import functools
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer.initializers import tcp_initializer
-from dm_control.entities import props
-from dm_control.entities.manipulators import kinova
-from dm_control.mujoco.wrapper import mjbindings
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer.initializers import tcp_initializer
+from dm_control_M.entities import props
+from dm_control_M.entities.manipulators import kinova
+from dm_control_M.mujoco.wrapper import mjbindings
 import numpy as np
 
 mjlib = mjbindings.mjlib

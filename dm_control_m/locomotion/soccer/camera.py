@@ -15,7 +15,7 @@
 
 """Cameras for recording soccer videos."""
 
-from dm_control.mujoco import engine
+from dm_control_M.mujoco import engine
 import numpy as np
 
 

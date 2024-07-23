@@ -18,13 +18,13 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control import composer
-from dm_control import mjcf
-from dm_control.composer.variation import deterministic
-from dm_control.composer.variation import rotations
-from dm_control.locomotion.arenas import corridors as corridor_arenas
-from dm_control.locomotion.tasks import corridors as corridor_tasks
-from dm_control.locomotion.walkers import cmu_humanoid
+from dm_control_M import composer
+from dm_control_M import mjcf
+from dm_control_M.composer.variation import deterministic
+from dm_control_M.composer.variation import rotations
+from dm_control_M.locomotion.arenas import corridors as corridor_arenas
+from dm_control_M.locomotion.tasks import corridors as corridor_tasks
+from dm_control_M.locomotion.walkers import cmu_humanoid
 import numpy as np
 
 

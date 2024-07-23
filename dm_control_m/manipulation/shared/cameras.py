@@ -17,7 +17,7 @@
 
 import collections
 
-from dm_control.composer.observation import observable
+from dm_control_M.composer.observation import observable
 
 
 CameraSpec = collections.namedtuple('CameraSpec', ['name', 'pos', 'xyaxes'])
