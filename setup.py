@@ -9,7 +9,7 @@ setup(
     description=('Custom DeepMind Control Suite'),
     license='MIT',
     keywords='gym dm_control openai deepmind',
-    packages=find_packages('dm_control_m'),	
+    packages=find_packages(),	
     include_package_data = True,
     install_requires=[
         'gym',
