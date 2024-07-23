@@ -17,12 +17,12 @@
 
 
 from absl import flags
-from dm_control_M import composer as _composer
-from dm_control_M.manipulation import bricks as _bricks
-from dm_control_M.manipulation import lift as _lift
-from dm_control_M.manipulation import place as _place
-from dm_control_M.manipulation import reach as _reach
-from dm_control_M.manipulation.shared import registry as _registry
+from dm_control_m import composer as _composer
+from dm_control_m.manipulation import bricks as _bricks
+from dm_control_m.manipulation import lift as _lift
+from dm_control_m.manipulation import place as _place
+from dm_control_m.manipulation import reach as _reach
+from dm_control_m.manipulation.shared import registry as _registry
 
 _registry.done_importing_tasks()
 

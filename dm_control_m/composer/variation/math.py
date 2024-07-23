@@ -17,8 +17,8 @@
 
 import abc
 
-from dm_control_M.composer.variation import base
-from dm_control_M.composer.variation.variation_values import evaluate
+from dm_control_m.composer.variation import base
+from dm_control_m.composer.variation.variation_values import evaluate
 
 import numpy as np
 

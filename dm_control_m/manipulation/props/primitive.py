@@ -15,10 +15,10 @@
 """Props made of a single primitive MuJoCo geom."""
 import itertools
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer import define
-from dm_control_M.composer.observation import observable
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer import define
+from dm_control_m.composer.observation import observable
 import numpy as np
 _DEFAULT_HALF_LENGTHS = [0.05, 0.1, 0.15]
 

@@ -19,8 +19,8 @@ import collections
 import pprint
 from absl import app
 from absl import logging
-from dm_control_M.entities.props import duplo
-from dm_control_M.entities.props.duplo import utils
+from dm_control_m.entities.props import duplo
+from dm_control_m.entities.props.duplo import utils
 from scipy import optimize
 
 # pylint: disable=protected-access,invalid-name

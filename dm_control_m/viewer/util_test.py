@@ -17,7 +17,7 @@
 import collections
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.viewer import util
+from dm_control_m.viewer import util
 import mock
 import numpy as np
 

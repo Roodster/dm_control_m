@@ -85,8 +85,8 @@ import abc
 import collections
 import weakref
 
-from dm_control_M.mujoco.wrapper import util
-from dm_control_M.mujoco.wrapper.mjbindings import sizes
+from dm_control_m.mujoco.wrapper import util
+from dm_control_m.mujoco.wrapper.mjbindings import sizes
 import numpy as np
 
 

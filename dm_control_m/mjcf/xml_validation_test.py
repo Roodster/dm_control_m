@@ -18,8 +18,8 @@
 import os
 
 from absl.testing import absltest
-from dm_control_M.mjcf import parser
-from dm_control_M.mujoco import wrapper
+from dm_control_m.mjcf import parser
+from dm_control_m.mujoco import wrapper
 
 ASSETS_DIR = os.path.join(os.path.dirname(__file__), 'test_assets')
 _ARENA_XML = os.path.join(ASSETS_DIR, 'arena.xml')

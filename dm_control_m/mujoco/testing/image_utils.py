@@ -20,9 +20,9 @@ import functools
 import io
 import os
 import sys
-from dm_control_M import _render
-from dm_control_M import mujoco
-from dm_control_M.mujoco.testing import assets
+from dm_control_m import _render
+from dm_control_m import mujoco
+from dm_control_m.mujoco.testing import assets
 import numpy as np
 from PIL import Image
 

@@ -16,8 +16,8 @@
 """Base class for tasks in the Control Suite."""
 
 
-from dm_control_M import mujoco
-from dm_control_M.rl import control
+from dm_control_m import mujoco
+from dm_control_m.rl import control
 import numpy as np
 
 

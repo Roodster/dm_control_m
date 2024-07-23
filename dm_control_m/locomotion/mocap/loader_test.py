@@ -17,13 +17,13 @@
 import os
 
 from absl.testing import absltest
-from dm_control_M.locomotion.mocap import loader
-from dm_control_M.locomotion.mocap import mocap_pb2
-from dm_control_M.locomotion.mocap import trajectory
+from dm_control_m.locomotion.mocap import loader
+from dm_control_m.locomotion.mocap import mocap_pb2
+from dm_control_m.locomotion.mocap import trajectory
 from google.protobuf import descriptor
 from google.protobuf import text_format
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 TEXTPROTOS = [
     os.path.join(os.path.dirname(__file__), 'test_001.textproto'),

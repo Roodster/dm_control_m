@@ -17,8 +17,8 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.rl import control
-from dm_control_M.suite.wrappers import action_scale
+from dm_control_m.rl import control
+from dm_control_m.suite.wrappers import action_scale
 from dm_env import specs
 import mock
 import numpy as np

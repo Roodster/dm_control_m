@@ -16,7 +16,7 @@
 
 
 from absl.testing import absltest
-from dm_control_M.locomotion.arenas import covering
+from dm_control_m.locomotion.arenas import covering
 import labmaze
 import numpy as np
 

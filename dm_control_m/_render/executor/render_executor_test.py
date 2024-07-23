@@ -21,7 +21,7 @@ import unittest
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M._render import executor
+from dm_control_m._render import executor
 import mock
 
 

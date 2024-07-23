@@ -15,5 +15,5 @@
 
 """Tools for initializing the states of Composer environments."""
 
-from dm_control_M.composer.initializers.prop_initializer import PropPlacer
-from dm_control_M.composer.initializers.tcp_initializer import ToolCenterPointInitializer
+from dm_control_m.composer.initializers.prop_initializer import PropPlacer
+from dm_control_m.composer.initializers.tcp_initializer import ToolCenterPointInitializer

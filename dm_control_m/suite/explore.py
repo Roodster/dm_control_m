@@ -17,10 +17,10 @@
 
 from absl import app
 from absl import flags
-from dm_control_M import suite
-from dm_control_M.suite.wrappers import action_noise
+from dm_control_m import suite
+from dm_control_m.suite.wrappers import action_noise
 
-from dm_control_M import viewer
+from dm_control_m import viewer
 
 
 _ALL_NAMES = ['.'.join(domain_task) for domain_task in suite.ALL_TASKS]

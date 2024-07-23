@@ -17,10 +17,10 @@
 import string
 
 from absl import logging
-from dm_control_M import composer
-from dm_control_M.composer.observation import observable
-from dm_control_M.locomotion.arenas import assets as locomotion_arenas_assets
-from dm_control_M.locomotion.arenas import covering
+from dm_control_m import composer
+from dm_control_m.composer.observation import observable
+from dm_control_m.locomotion.arenas import assets as locomotion_arenas_assets
+from dm_control_m.locomotion.arenas import covering
 import labmaze
 import numpy as np
 

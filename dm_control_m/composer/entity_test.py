@@ -19,11 +19,11 @@ import itertools
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import mjcf
-from dm_control_M.composer import arena
-from dm_control_M.composer import define
-from dm_control_M.composer import entity
-from dm_control_M.composer.observation.observable import base as observable
+from dm_control_m import mjcf
+from dm_control_m.composer import arena
+from dm_control_m.composer import define
+from dm_control_m.composer import entity
+from dm_control_m.composer.observation.observable import base as observable
 import numpy as np
 
 _NO_ROTATION = (1, 0, 0, 0)  # Tests support for non-arrays and non-floats.

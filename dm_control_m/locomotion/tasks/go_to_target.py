@@ -16,10 +16,10 @@
 """Task for a walker to move to a target."""
 
 
-from dm_control_M import composer
-from dm_control_M.composer import variation
-from dm_control_M.composer.observation import observable
-from dm_control_M.composer.variation import distributions
+from dm_control_m import composer
+from dm_control_m.composer import variation
+from dm_control_m.composer.observation import observable
+from dm_control_m.composer.variation import distributions
 import numpy as np
 
 DEFAULT_DISTANCE_TOLERANCE_TO_TARGET = 1.0

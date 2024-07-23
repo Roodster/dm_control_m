@@ -16,9 +16,9 @@
 
 
 from absl.testing import absltest
-from dm_control_M.mujoco.wrapper.mjbindings import enums
-from dm_control_M.viewer import util
-from dm_control_M.viewer import viewer
+from dm_control_m.mujoco.wrapper.mjbindings import enums
+from dm_control_m.viewer import util
+from dm_control_m.viewer import viewer
 import mock
 
 

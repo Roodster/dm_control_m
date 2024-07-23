@@ -19,7 +19,7 @@ import abc
 import collections
 import copy
 
-from dm_control_M import mujoco
+from dm_control_m import mujoco
 from dm_env import specs
 
 

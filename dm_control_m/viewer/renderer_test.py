@@ -17,9 +17,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.mujoco import wrapper
-from dm_control_M.mujoco.wrapper.mjbindings import enums
-from dm_control_M.viewer import renderer
+from dm_control_m.mujoco import wrapper
+from dm_control_m.mujoco.wrapper.mjbindings import enums
+from dm_control_m.viewer import renderer
 import mock
 import mujoco
 import numpy as np

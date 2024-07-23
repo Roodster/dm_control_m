@@ -18,7 +18,7 @@
 import enum
 import os
 
-from dm_control_M.locomotion.walkers import cmu_humanoid
+from dm_control_m.locomotion.walkers import cmu_humanoid
 import numpy as np
 
 

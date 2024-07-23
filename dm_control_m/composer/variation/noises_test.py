@@ -17,8 +17,8 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.composer.variation import deterministic
-from dm_control_M.composer.variation import noises
+from dm_control_m.composer.variation import deterministic
+from dm_control_m.composer.variation import noises
 
 NUM_ITERATIONS = 100
 

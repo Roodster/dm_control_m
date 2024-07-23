@@ -21,17 +21,17 @@ import typing
 from typing import Any, Callable, Mapping, Optional, Sequence, Set, Text, Union
 
 from absl import logging
-from dm_control_M import composer
-from dm_control_M.composer.observation import observable as base_observable
-from dm_control_M.locomotion.mocap import loader
+from dm_control_m import composer
+from dm_control_m.composer.observation import observable as base_observable
+from dm_control_m.locomotion.mocap import loader
 
-from dm_control_M.locomotion.tasks.reference_pose import datasets
-from dm_control_M.locomotion.tasks.reference_pose import types
-from dm_control_M.locomotion.tasks.reference_pose import utils
-from dm_control_M.locomotion.tasks.reference_pose import rewards
+from dm_control_m.locomotion.tasks.reference_pose import datasets
+from dm_control_m.locomotion.tasks.reference_pose import types
+from dm_control_m.locomotion.tasks.reference_pose import utils
+from dm_control_m.locomotion.tasks.reference_pose import rewards
 
-from dm_control_M.mujoco.wrapper import mjbindings
-from dm_control_M.utils import transformations as tr
+from dm_control_m.mujoco.wrapper import mjbindings
+from dm_control_m.utils import transformations as tr
 
 from dm_env import specs
 
@@ -39,8 +39,8 @@ import numpy as np
 import tree
 
 if typing.TYPE_CHECKING:
-  from dm_control_M.locomotion.walkers import legacy_base
-  from dm_control_M import mjcf
+  from dm_control_m.locomotion.walkers import legacy_base
+  from dm_control_m import mjcf
 
 mjlib = mjbindings.mjlib
 DEFAULT_PHYSICS_TIMESTEP = 0.005

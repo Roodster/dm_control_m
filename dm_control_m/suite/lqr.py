@@ -18,16 +18,16 @@
 import collections
 import os
 
-from dm_control_M import mujoco
-from dm_control_M.rl import control
-from dm_control_M.suite import base
-from dm_control_M.suite import common
-from dm_control_M.utils import containers
-from dm_control_M.utils import xml_tools
+from dm_control_m import mujoco
+from dm_control_m.rl import control
+from dm_control_m.suite import base
+from dm_control_m.suite import common
+from dm_control_m.utils import containers
+from dm_control_m.utils import xml_tools
 from lxml import etree
 import numpy as np
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 _DEFAULT_TIME_LIMIT = float('inf')
 _CONTROL_COST_COEF = 0.1

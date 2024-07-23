@@ -18,7 +18,7 @@
 import abc
 import operator
 
-from dm_control_M.composer.variation import variation_values
+from dm_control_m.composer.variation import variation_values
 import numpy as np
 
 

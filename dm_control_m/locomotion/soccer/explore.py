@@ -18,8 +18,8 @@
 import functools
 from absl import app
 from absl import flags
-from dm_control_M.locomotion import soccer
-from dm_control_M import viewer
+from dm_control_m.locomotion import soccer
+from dm_control_m import viewer
 
 FLAGS = flags.FLAGS
 

@@ -15,8 +15,8 @@
 """LabMaze textures."""
 
 
-from dm_control_M import composer
-from dm_control_M import mjcf
+from dm_control_m import composer
+from dm_control_m import mjcf
 from labmaze import assets as labmaze_assets
 
 

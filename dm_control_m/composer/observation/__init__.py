@@ -15,9 +15,9 @@
 
 """Multi-rate observation and buffering framework for Composer environments."""
 
-from dm_control_M.composer.observation import observable
-from dm_control_M.composer.observation.obs_buffer import Buffer
-from dm_control_M.composer.observation.updater import DEFAULT_BUFFER_SIZE
-from dm_control_M.composer.observation.updater import DEFAULT_DELAY
-from dm_control_M.composer.observation.updater import DEFAULT_UPDATE_INTERVAL
-from dm_control_M.composer.observation.updater import Updater
+from dm_control_m.composer.observation import observable
+from dm_control_m.composer.observation.obs_buffer import Buffer
+from dm_control_m.composer.observation.updater import DEFAULT_BUFFER_SIZE
+from dm_control_m.composer.observation.updater import DEFAULT_DELAY
+from dm_control_m.composer.observation.updater import DEFAULT_UPDATE_INTERVAL
+from dm_control_m.composer.observation.updater import Updater

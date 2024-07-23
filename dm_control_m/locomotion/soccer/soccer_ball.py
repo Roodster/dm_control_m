@@ -17,11 +17,11 @@
 
 import os
 
-from dm_control_M import mjcf
-from dm_control_M.entities import props
+from dm_control_m import mjcf
+from dm_control_m.entities import props
 import numpy as np
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 _ASSETS_PATH = os.path.join(os.path.dirname(__file__), 'assets', 'soccer_ball')
 

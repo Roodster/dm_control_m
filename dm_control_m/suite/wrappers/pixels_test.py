@@ -19,8 +19,8 @@ import collections
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.suite import cartpole
-from dm_control_M.suite.wrappers import pixels
+from dm_control_m.suite import cartpole
+from dm_control_m.suite.wrappers import pixels
 import dm_env
 from dm_env import specs
 import numpy as np

@@ -17,8 +17,8 @@
 
 import os
 
-from dm_control_M import mjcf
-from dm_control_M.composer import entity as entity_module
+from dm_control_m import mjcf
+from dm_control_m.composer import entity as entity_module
 
 _ARENA_XML_PATH = os.path.join(os.path.dirname(__file__), 'arena.xml')
 

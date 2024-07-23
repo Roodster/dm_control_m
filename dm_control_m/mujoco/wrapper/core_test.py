@@ -21,9 +21,9 @@ import pickle
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import _render
-from dm_control_M.mujoco.testing import assets
-from dm_control_M.mujoco.wrapper import core
+from dm_control_m import _render
+from dm_control_m.mujoco.testing import assets
+from dm_control_m.mujoco.wrapper import core
 import mujoco
 import numpy as np
 

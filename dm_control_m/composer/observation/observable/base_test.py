@@ -16,9 +16,9 @@
 """Tests for observable classes."""
 
 from absl.testing import absltest
-from dm_control_M import mujoco
-from dm_control_M.composer.observation import fake_physics
-from dm_control_M.composer.observation.observable import base
+from dm_control_m import mujoco
+from dm_control_m.composer.observation import fake_physics
+from dm_control_m.composer.observation.observable import base
 import numpy as np
 
 

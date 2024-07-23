@@ -16,7 +16,7 @@
 """Script for generating pre-rendered frames used in integration tests."""
 
 from absl import app
-from dm_control_M.mujoco.testing import image_utils
+from dm_control_m.mujoco.testing import image_utils
 
 
 def main(argv):

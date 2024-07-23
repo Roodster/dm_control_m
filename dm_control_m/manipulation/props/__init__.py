@@ -13,10 +13,10 @@
 # limitations under the License.
 # ============================================================================
 """Props for manipulation tasks."""
-from dm_control_M.manipulation.props.primitive import Box
-from dm_control_M.manipulation.props.primitive import BoxWithSites
-from dm_control_M.manipulation.props.primitive import Capsule
-from dm_control_M.manipulation.props.primitive import Cylinder
-from dm_control_M.manipulation.props.primitive import Ellipsoid
-from dm_control_M.manipulation.props.primitive import Primitive
-from dm_control_M.manipulation.props.primitive import Sphere
+from dm_control_m.manipulation.props.primitive import Box
+from dm_control_m.manipulation.props.primitive import BoxWithSites
+from dm_control_m.manipulation.props.primitive import Capsule
+from dm_control_m.manipulation.props.primitive import Cylinder
+from dm_control_m.manipulation.props.primitive import Ellipsoid
+from dm_control_m.manipulation.props.primitive import Primitive
+from dm_control_m.manipulation.props.primitive import Sphere

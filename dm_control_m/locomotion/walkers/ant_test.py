@@ -17,12 +17,12 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer.observation.observable import base as observable_base
-from dm_control_M.locomotion.arenas import corridors as corr_arenas
-from dm_control_M.locomotion.tasks import corridors as corr_tasks
-from dm_control_M.locomotion.walkers import ant
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer.observation.observable import base as observable_base
+from dm_control_m.locomotion.arenas import corridors as corr_arenas
+from dm_control_m.locomotion.tasks import corridors as corr_tasks
+from dm_control_m.locomotion.walkers import ant
 import numpy as np
 
 _CONTROL_TIMESTEP = .02

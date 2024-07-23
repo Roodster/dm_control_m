@@ -26,7 +26,7 @@ import collections
 import os
 import re
 
-from dm_control_M import mjcf
+from dm_control_m import mjcf
 
 SourceLine = collections.namedtuple(
     'SourceLine', ('line_number', 'text'))

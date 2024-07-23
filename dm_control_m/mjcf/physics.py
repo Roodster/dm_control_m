@@ -21,10 +21,10 @@ import weakref
 
 from absl import flags
 from absl import logging
-from dm_control_M import mujoco
-from dm_control_M.mjcf import constants
-from dm_control_M.mjcf import debugging
-from dm_control_M.mujoco.wrapper.mjbindings import sizes
+from dm_control_m import mujoco
+from dm_control_m.mjcf import constants
+from dm_control_m.mjcf import debugging
+from dm_control_m.mujoco.wrapper.mjbindings import sizes
 import numpy as np
 
 FLAGS = flags.FLAGS

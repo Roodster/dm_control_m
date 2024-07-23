@@ -14,10 +14,10 @@
 # ============================================================================
 """Helpers for modifying a walker to match mocap data."""
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.locomotion.mocap import mocap_pb2
-from dm_control_M.locomotion.walkers import rescale
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.locomotion.mocap import mocap_pb2
+from dm_control_m.locomotion.walkers import rescale
 import numpy as np
 
 

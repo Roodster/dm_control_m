@@ -17,8 +17,8 @@
 
 
 from absl.testing import absltest
-from dm_control_M import mjcf
-from dm_control_M.locomotion.walkers import rescale
+from dm_control_m import mjcf
+from dm_control_m.locomotion.walkers import rescale
 import numpy as np
 
 

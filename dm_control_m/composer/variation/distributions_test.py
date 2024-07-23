@@ -17,7 +17,7 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.composer.variation import distributions
+from dm_control_m.composer.variation import distributions
 import numpy as np
 
 RANDOM_SEED = 123

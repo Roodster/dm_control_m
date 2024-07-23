@@ -17,8 +17,8 @@
 import itertools
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.locomotion.soccer import humanoid
-from dm_control_M.locomotion.soccer import team
+from dm_control_m.locomotion.soccer import humanoid
+from dm_control_m.locomotion.soccer import team
 
 
 class HumanoidTest(parameterized.TestCase):

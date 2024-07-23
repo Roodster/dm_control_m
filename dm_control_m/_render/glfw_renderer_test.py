@@ -17,9 +17,9 @@
 
 import unittest
 from absl.testing import absltest
-from dm_control_M import _render
-from dm_control_M.mujoco import wrapper
-from dm_control_M.mujoco.testing import decorators
+from dm_control_m import _render
+from dm_control_m.mujoco import wrapper
+from dm_control_m.mujoco.testing import decorators
 
 import mock  # pylint: disable=g-import-not-at-top
 

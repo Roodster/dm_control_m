@@ -18,14 +18,14 @@ import abc
 import collections
 import os
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer.observation import observable
-from dm_control_M.locomotion.walkers import base
-from dm_control_M.locomotion.walkers import legacy_base
-from dm_control_M.locomotion.walkers import rescale
-from dm_control_M.locomotion.walkers import scaled_actuators
-from dm_control_M.mujoco import wrapper as mj_wrapper
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer.observation import observable
+from dm_control_m.locomotion.walkers import base
+from dm_control_m.locomotion.walkers import legacy_base
+from dm_control_m.locomotion.walkers import rescale
+from dm_control_m.locomotion.walkers import scaled_actuators
+from dm_control_m.mujoco import wrapper as mj_wrapper
 import numpy as np
 
 _XML_PATH = os.path.join(os.path.dirname(__file__),

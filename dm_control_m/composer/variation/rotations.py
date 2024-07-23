@@ -16,8 +16,8 @@
 """Variations in 3D rotations."""
 
 
-from dm_control_M.composer.variation import base
-from dm_control_M.composer.variation import variation_values
+from dm_control_m.composer.variation import base
+from dm_control_m.composer.variation import variation_values
 import numpy as np
 
 IDENTITY_QUATERNION = np.array([1., 0., 0., 0.])

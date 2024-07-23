@@ -15,19 +15,19 @@
 
 """Module containing abstract base classes for Composer environments."""
 
-from dm_control_M.composer.arena import Arena
-from dm_control_M.composer.constants import *  # pylint: disable=wildcard-import
-from dm_control_M.composer.define import cached_property
-from dm_control_M.composer.define import observable
-from dm_control_M.composer.entity import Entity
-from dm_control_M.composer.entity import FreePropObservableMixin
-from dm_control_M.composer.entity import ModelWrapperEntity
-from dm_control_M.composer.entity import Observables
-from dm_control_M.composer.environment import Environment
-from dm_control_M.composer.environment import EpisodeInitializationError
-from dm_control_M.composer.environment import HOOK_NAMES
-from dm_control_M.composer.environment import ObservationPadding
-from dm_control_M.composer.initializer import Initializer
-from dm_control_M.composer.robot import Robot
-from dm_control_M.composer.task import NullTask
-from dm_control_M.composer.task import Task
+from dm_control_m.composer.arena import Arena
+from dm_control_m.composer.constants import *  # pylint: disable=wildcard-import
+from dm_control_m.composer.define import cached_property
+from dm_control_m.composer.define import observable
+from dm_control_m.composer.entity import Entity
+from dm_control_m.composer.entity import FreePropObservableMixin
+from dm_control_m.composer.entity import ModelWrapperEntity
+from dm_control_m.composer.entity import Observables
+from dm_control_m.composer.environment import Environment
+from dm_control_m.composer.environment import EpisodeInitializationError
+from dm_control_m.composer.environment import HOOK_NAMES
+from dm_control_m.composer.environment import ObservationPadding
+from dm_control_m.composer.initializer import Initializer
+from dm_control_m.composer.robot import Robot
+from dm_control_m.composer.task import NullTask
+from dm_control_m.composer.task import Task

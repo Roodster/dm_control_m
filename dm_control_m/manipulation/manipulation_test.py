@@ -18,7 +18,7 @@
 from absl import flags
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import manipulation
+from dm_control_m import manipulation
 import numpy as np
 
 

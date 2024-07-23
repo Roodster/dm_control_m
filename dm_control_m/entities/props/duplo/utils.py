@@ -16,8 +16,8 @@
 """Utilities used in tests, and for tuning the Duplo model."""
 
 
-from dm_control_M import composer
-from dm_control_M import mjcf
+from dm_control_m import composer
+from dm_control_m import mjcf
 from scipy import optimize
 
 

@@ -21,16 +21,16 @@ import hashlib
 import io
 import os
 
-from dm_control_M.mjcf import base
-from dm_control_M.mjcf import constants
-from dm_control_M.mjcf import debugging
-from dm_control_M.mjcf import skin
-from dm_control_M.mujoco.wrapper import util
+from dm_control_m.mjcf import base
+from dm_control_m.mjcf import constants
+from dm_control_m.mjcf import debugging
+from dm_control_m.mjcf import skin
+from dm_control_m.mujoco.wrapper import util
 import numpy as np
 
 # Copybara placeholder for internal file handling dependency.
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 
 _INVALID_REFERENCE_TYPE = (

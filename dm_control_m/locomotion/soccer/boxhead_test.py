@@ -17,7 +17,7 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.locomotion.soccer import boxhead
+from dm_control_m.locomotion.soccer import boxhead
 
 
 class BoxheadTest(parameterized.TestCase):

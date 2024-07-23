@@ -17,9 +17,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer.observation import observable
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer.observation import observable
 import dm_env
 import mock
 import numpy as np

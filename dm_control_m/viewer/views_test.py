@@ -16,7 +16,7 @@
 
 
 from absl.testing import absltest
-from dm_control_M.viewer import views
+from dm_control_m.viewer import views
 import mock
 import numpy as np
 

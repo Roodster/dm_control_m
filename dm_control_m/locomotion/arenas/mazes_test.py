@@ -16,9 +16,9 @@
 
 
 from absl.testing import absltest
-from dm_control_M import mjcf
-from dm_control_M.locomotion.arenas import labmaze_textures
-from dm_control_M.locomotion.arenas import mazes
+from dm_control_m import mjcf
+from dm_control_m.locomotion.arenas import labmaze_textures
+from dm_control_m.locomotion.arenas import mazes
 
 
 class MazesTest(absltest.TestCase):

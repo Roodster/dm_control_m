@@ -17,9 +17,9 @@
 import collections
 import copy
 
-from dm_control_M.locomotion.mocap import mocap_pb2
-from dm_control_M.locomotion.mocap import props as mocap_props
-from dm_control_M.locomotion.mocap import walkers as mocap_walkers
+from dm_control_m.locomotion.mocap import mocap_pb2
+from dm_control_m.locomotion.mocap import props as mocap_props
+from dm_control_m.locomotion.mocap import walkers as mocap_walkers
 import numpy as np
 
 STEP_TIME_TOLERANCE = 1e-4

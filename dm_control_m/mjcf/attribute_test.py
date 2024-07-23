@@ -21,10 +21,10 @@ import os
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.mjcf import attribute
-from dm_control_M.mjcf import element
-from dm_control_M.mjcf import namescope
-from dm_control_M.mjcf import schema
+from dm_control_m.mjcf import attribute
+from dm_control_m.mjcf import element
+from dm_control_m.mjcf import namescope
+from dm_control_m.mjcf import schema
 import numpy as np
 
 ASSETS_DIR = os.path.join(os.path.dirname(__file__), 'test_assets')

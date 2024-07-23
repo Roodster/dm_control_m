@@ -18,7 +18,7 @@
 import unittest
 
 from absl.testing import absltest
-from dm_control_M import _render
+from dm_control_m import _render
 import mock
 from OpenGL import GL
 

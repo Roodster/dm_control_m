@@ -20,11 +20,11 @@ import pickle
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.mujoco import engine
-from dm_control_M.mujoco import wrapper
-from dm_control_M.mujoco.testing import assets
-from dm_control_M.mujoco.wrapper.mjbindings import enums
-from dm_control_M.rl import control
+from dm_control_m.mujoco import engine
+from dm_control_m.mujoco import wrapper
+from dm_control_m.mujoco.testing import assets
+from dm_control_m.mujoco.wrapper.mjbindings import enums
+from dm_control_m.rl import control
 import mock
 import mujoco
 import numpy as np

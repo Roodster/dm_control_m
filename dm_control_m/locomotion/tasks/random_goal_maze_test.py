@@ -17,12 +17,12 @@
 import functools
 from absl.testing import absltest
 
-from dm_control_M import composer
-from dm_control_M.locomotion.arenas import labmaze_textures
-from dm_control_M.locomotion.arenas import mazes
-from dm_control_M.locomotion.props import target_sphere
-from dm_control_M.locomotion.tasks import random_goal_maze
-from dm_control_M.locomotion.walkers import cmu_humanoid
+from dm_control_m import composer
+from dm_control_m.locomotion.arenas import labmaze_textures
+from dm_control_m.locomotion.arenas import mazes
+from dm_control_m.locomotion.props import target_sphere
+from dm_control_m.locomotion.tasks import random_goal_maze
+from dm_control_m.locomotion.walkers import cmu_humanoid
 import numpy as np
 
 

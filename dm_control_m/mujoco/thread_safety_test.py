@@ -18,10 +18,10 @@
 import platform
 
 from absl.testing import absltest
-from dm_control_M import _render
-from dm_control_M.mujoco import engine
-from dm_control_M.mujoco.testing import assets
-from dm_control_M.mujoco.testing import decorators
+from dm_control_m import _render
+from dm_control_m.mujoco import engine
+from dm_control_m.mujoco.testing import assets
+from dm_control_m.mujoco.testing import decorators
 
 
 MODEL = assets.get_contents('cartpole.xml')

@@ -15,7 +15,7 @@
 """Function to rescale the walkers."""
 
 
-from dm_control_M import mjcf
+from dm_control_m import mjcf
 
 
 def rescale_subtree(body, position_factor, size_factor):

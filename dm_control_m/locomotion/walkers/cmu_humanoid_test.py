@@ -18,9 +18,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import mjcf
-from dm_control_M.composer.observation.observable import base as observable_base
-from dm_control_M.locomotion.walkers import cmu_humanoid
+from dm_control_m import mjcf
+from dm_control_m.composer.observation.observable import base as observable_base
+from dm_control_m.locomotion.walkers import cmu_humanoid
 import numpy as np
 
 

@@ -16,8 +16,8 @@
 """Simple floor arenas."""
 
 
-from dm_control_M import composer
-from dm_control_M.locomotion.arenas import assets as locomotion_arenas_assets
+from dm_control_m import composer
+from dm_control_m.locomotion.arenas import assets as locomotion_arenas_assets
 import numpy as np
 
 _GROUNDPLANE_QUAD_SIZE = 0.25

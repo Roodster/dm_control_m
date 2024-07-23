@@ -17,7 +17,7 @@
 
 import abc
 
-from dm_control_M.composer import entity
+from dm_control_m.composer import entity
 import numpy as np
 
 DOWN_QUATERNION = np.array([0., 0.70710678118, 0.70710678118, 0.])

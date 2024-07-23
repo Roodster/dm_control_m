@@ -15,9 +15,9 @@
 
 """Initializers for walkers that use motion capture data."""
 
-from dm_control_M.locomotion.mocap import cmu_mocap_data
-from dm_control_M.locomotion.mocap import loader
-from dm_control_M.locomotion.walkers import initializers
+from dm_control_m.locomotion.mocap import cmu_mocap_data
+from dm_control_m.locomotion.mocap import loader
+from dm_control_m.locomotion.walkers import initializers
 
 
 class CMUMocapInitializer(initializers.UprightInitializer):

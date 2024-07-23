@@ -17,12 +17,12 @@
 
 from absl import logging
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer import variation
-from dm_control_M.composer.initializers import utils
-from dm_control_M.composer.variation import rotations
-from dm_control_M.rl import control
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer import variation
+from dm_control_m.composer.initializers import utils
+from dm_control_m.composer.variation import rotations
+from dm_control_m.rl import control
 import numpy as np
 
 

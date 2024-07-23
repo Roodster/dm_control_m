@@ -16,7 +16,7 @@
 """Suite-specific arena class."""
 
 
-from dm_control_M import composer
+from dm_control_m import composer
 
 
 class Standard(composer.Arena):

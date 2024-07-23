@@ -17,9 +17,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import composer
-from dm_control_M.entities.props import position_detector
-from dm_control_M.entities.props import primitive
+from dm_control_m import composer
+from dm_control_m.entities.props import position_detector
+from dm_control_m.entities.props import primitive
 import numpy as np
 
 

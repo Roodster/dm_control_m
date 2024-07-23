@@ -17,12 +17,12 @@
 
 import os
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer import define
-from dm_control_M.composer.observation import observable
-from dm_control_M.entities.manipulators import base
-from dm_control_M.entities.manipulators.kinova import assets_path
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer import define
+from dm_control_m.composer.observation import observable
+from dm_control_m.entities.manipulators import base
+from dm_control_m.entities.manipulators.kinova import assets_path
 import numpy as np
 
 _JACO_ARM_XML_PATH = os.path.join(assets_path.KINOVA_ROOT, 'jaco_arm.xml')

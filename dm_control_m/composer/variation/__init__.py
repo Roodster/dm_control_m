@@ -18,8 +18,8 @@
 import collections
 import copy
 
-from dm_control_M.composer.variation.base import Variation
-from dm_control_M.composer.variation.variation_values import evaluate
+from dm_control_m.composer.variation.base import Variation
+from dm_control_m.composer.variation.variation_values import evaluate
 
 
 class _VariationInfo:

@@ -18,6 +18,6 @@
 A "prop" is typically a non-actuated entity representing an object in the world.
 """
 
-from dm_control_M.entities.props.duplo import Duplo
-from dm_control_M.entities.props.position_detector import PositionDetector
-from dm_control_M.entities.props.primitive import Primitive
+from dm_control_m.entities.props.duplo import Duplo
+from dm_control_m.entities.props.position_detector import PositionDetector
+from dm_control_m.entities.props.primitive import Primitive

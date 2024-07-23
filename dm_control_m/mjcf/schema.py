@@ -22,10 +22,10 @@ import collections
 import copy
 import os
 
-from dm_control_M.mjcf import attribute
+from dm_control_m.mjcf import attribute
 from lxml import etree
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 _SCHEMA_XML_PATH = os.path.join(os.path.dirname(__file__), 'schema.xml')
 

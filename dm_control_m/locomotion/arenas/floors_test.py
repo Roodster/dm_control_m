@@ -17,8 +17,8 @@
 
 
 from absl.testing import absltest
-from dm_control_M import mjcf
-from dm_control_M.locomotion.arenas import floors
+from dm_control_m import mjcf
+from dm_control_m.locomotion.arenas import floors
 import numpy as np
 
 

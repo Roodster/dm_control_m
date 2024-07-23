@@ -18,12 +18,12 @@
 import os
 import sys
 
-from dm_control_M.mjcf import constants
-from dm_control_M.mjcf import debugging
-from dm_control_M.mjcf import element
+from dm_control_m.mjcf import constants
+from dm_control_m.mjcf import debugging
+from dm_control_m.mjcf import element
 from lxml import etree
 # Copybara placeholder for internal file handling dependency.
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 
 def from_xml_string(xml_string, escape_separators=False,

@@ -17,11 +17,11 @@
 
 import abc
 
-from dm_control_M import composer
-from dm_control_M.composer.observation import observable
-from dm_control_M.locomotion.walkers import base
-from dm_control_M.locomotion.walkers import initializers
-from dm_control_M.mujoco.wrapper.mjbindings import mjlib
+from dm_control_m import composer
+from dm_control_m.composer.observation import observable
+from dm_control_m.locomotion.walkers import base
+from dm_control_m.locomotion.walkers import initializers
+from dm_control_m.mujoco.wrapper.mjbindings import mjlib
 import numpy as np
 
 _RANGEFINDER_SCALE = 10.0

@@ -34,7 +34,7 @@ import sys
 import weakref
 
 from absl import logging
-from dm_control_M._render import executor
+from dm_control_m._render import executor
 
 _CURRENT_CONTEXT_FOR_THREAD = collections.defaultdict(lambda: None)
 _CURRENT_THREAD_FOR_CONTEXT = collections.defaultdict(lambda: None)

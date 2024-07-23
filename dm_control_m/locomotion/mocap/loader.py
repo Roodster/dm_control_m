@@ -18,10 +18,10 @@ import abc
 import collections
 import operator
 
-from dm_control_M.composer import variation
-from dm_control_M.locomotion.mocap import mocap_pb2
-from dm_control_M.locomotion.mocap import trajectory
-from dm_control_M.utils import transformations as tr
+from dm_control_m.composer import variation
+from dm_control_m.locomotion.mocap import mocap_pb2
+from dm_control_m.locomotion.mocap import trajectory
+from dm_control_m.utils import transformations as tr
 from google.protobuf import descriptor
 import numpy as np
 

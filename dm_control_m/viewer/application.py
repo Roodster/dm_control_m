@@ -16,14 +16,14 @@
 
 import collections
 
-from dm_control_M import _render
-from dm_control_M.viewer import gui
-from dm_control_M.viewer import renderer
-from dm_control_M.viewer import runtime
-from dm_control_M.viewer import user_input
-from dm_control_M.viewer import util
-from dm_control_M.viewer import viewer
-from dm_control_M.viewer import views
+from dm_control_m import _render
+from dm_control_m.viewer import gui
+from dm_control_m.viewer import renderer
+from dm_control_m.viewer import runtime
+from dm_control_m.viewer import user_input
+from dm_control_m.viewer import util
+from dm_control_m.viewer import viewer
+from dm_control_m.viewer import views
 
 _DOUBLE_BUFFERING = (user_input.KEY_F5)
 _PAUSE = user_input.KEY_SPACE

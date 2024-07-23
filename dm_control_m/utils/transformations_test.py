@@ -20,8 +20,8 @@ import itertools
 from absl.testing import absltest
 from absl.testing import parameterized
 
-from dm_control_M.mujoco.wrapper import mjbindings
-from dm_control_M.utils import transformations
+from dm_control_m.mujoco.wrapper import mjbindings
+from dm_control_m.utils import transformations
 
 import numpy as np
 

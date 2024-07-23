@@ -18,14 +18,14 @@
 import io
 import os
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer.observation import observable
-from dm_control_M.locomotion.walkers import legacy_base
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer.observation import observable
+from dm_control_m.locomotion.walkers import legacy_base
 import numpy as np
 from PIL import Image
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 _ASSETS_PATH = os.path.join(os.path.dirname(__file__), 'assets', 'boxhead')
 _MAX_WALKER_ID = 10

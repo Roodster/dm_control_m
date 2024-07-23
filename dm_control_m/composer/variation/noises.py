@@ -16,8 +16,8 @@
 """Meta-variations that modify original values by a specified variation."""
 
 
-from dm_control_M.composer.variation import base
-from dm_control_M.composer.variation import variation_values
+from dm_control_m.composer.variation import base
+from dm_control_m.composer.variation import variation_values
 
 
 class Additive(base.Variation):

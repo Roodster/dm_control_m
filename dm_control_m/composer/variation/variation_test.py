@@ -18,8 +18,8 @@
 import operator
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.composer import variation
-from dm_control_M.composer.variation import deterministic
+from dm_control_m.composer import variation
+from dm_control_m.composer.variation import deterministic
 import numpy as np
 
 

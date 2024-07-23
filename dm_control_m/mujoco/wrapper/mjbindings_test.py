@@ -17,8 +17,8 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.mujoco.wrapper.mjbindings import constants
-from dm_control_M.mujoco.wrapper.mjbindings import sizes
+from dm_control_m.mujoco.wrapper.mjbindings import constants
+from dm_control_m.mujoco.wrapper.mjbindings import sizes
 
 
 class MjbindingsTest(parameterized.TestCase):

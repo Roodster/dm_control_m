@@ -18,7 +18,7 @@
 import io
 
 from absl.testing import absltest
-from dm_control_M.utils import xml_tools
+from dm_control_m.utils import xml_tools
 import lxml
 
 etree = lxml.etree

@@ -19,14 +19,14 @@ import colorsys
 import os
 
 from absl import logging
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer.variation import distributions
-from dm_control_M.entities import props
-from dm_control_M.locomotion.soccer import team
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer.variation import distributions
+from dm_control_m.entities import props
+from dm_control_m.locomotion.soccer import team
 import numpy as np
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 _ASSETS_PATH = os.path.join(os.path.dirname(__file__), 'assets', 'pitch')
 

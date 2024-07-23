@@ -17,7 +17,7 @@
 import abc
 import enum
 
-from dm_control_M.viewer import renderer
+from dm_control_m.viewer import renderer
 import mujoco
 import numpy as np
 

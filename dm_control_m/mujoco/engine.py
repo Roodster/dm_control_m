@@ -38,11 +38,11 @@ from typing import Callable, NamedTuple, Optional, Union
 
 from absl import logging
 
-from dm_control_M import _render
-from dm_control_M.mujoco import index
-from dm_control_M.mujoco import wrapper
-from dm_control_M.mujoco.wrapper import util
-from dm_control_M.rl import control as _control
+from dm_control_m import _render
+from dm_control_m.mujoco import index
+from dm_control_m.mujoco import wrapper
+from dm_control_m.mujoco.wrapper import util
+from dm_control_m.rl import control as _control
 from dm_env import specs
 import mujoco
 import numpy as np

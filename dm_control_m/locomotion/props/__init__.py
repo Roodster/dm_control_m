@@ -14,5 +14,5 @@
 # ============================================================================
 """Props for Locomotion tasks."""
 
-from dm_control_M.locomotion.props.target_sphere import TargetSphere
-from dm_control_M.locomotion.props.target_sphere import TargetSphereTwoTouch
+from dm_control_m.locomotion.props.target_sphere import TargetSphere
+from dm_control_m.locomotion.props.target_sphere import TargetSphereTwoTouch

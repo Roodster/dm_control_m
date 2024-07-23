@@ -16,8 +16,8 @@
 """Detects the presence of registered entities within a cuboidal region."""
 
 
-from dm_control_M import composer
-from dm_control_M import mjcf
+from dm_control_m import composer
+from dm_control_m import mjcf
 import numpy as np
 
 _RENDERED_HEIGHT_IN_2D_MODE = 0.01

@@ -14,11 +14,11 @@
 # ============================================================================
 """Props that are constructed from motion-capture data."""
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer import define
-from dm_control_M.composer.observation import observable
-from dm_control_M.locomotion.mocap import mocap_pb2
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer import define
+from dm_control_m.composer.observation import observable
+from dm_control_m.locomotion.mocap import mocap_pb2
 import numpy as np
 
 _DEFAULT_LIGHT_PROP_RGBA = np.array([0.77, 0.64, 0.21, 1.])

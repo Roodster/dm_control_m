@@ -16,8 +16,8 @@
 
 
 from absl.testing import absltest
-from dm_control_M import mjcf
-from dm_control_M.locomotion.arenas import bowl
+from dm_control_m import mjcf
+from dm_control_m.locomotion.arenas import bowl
 
 
 class BowlTest(absltest.TestCase):

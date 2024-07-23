@@ -18,8 +18,8 @@ import collections
 import copy
 import enum
 
-from dm_control_M.mujoco.wrapper import mjbindings
-from dm_control_M.viewer import util
+from dm_control_m.mujoco.wrapper import mjbindings
+from dm_control_m.viewer import util
 import mujoco
 import numpy as np
 

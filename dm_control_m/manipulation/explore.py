@@ -19,9 +19,9 @@ import functools
 
 from absl import app
 from absl import flags
-from dm_control_M import manipulation
+from dm_control_m import manipulation
 
-from dm_control_M import viewer
+from dm_control_m import viewer
 
 flags.DEFINE_enum(
     'environment_name', None, manipulation.ALL,

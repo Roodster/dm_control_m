@@ -19,7 +19,7 @@ import os
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.mujoco.testing import image_utils
+from dm_control_m.mujoco.testing import image_utils
 import mock
 import numpy as np
 from PIL import Image

@@ -19,9 +19,9 @@ import os
 from absl import flags
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import mjcf
-from dm_control_M.mujoco import wrapper
-from dm_control_M.mujoco.wrapper import util
+from dm_control_m import mjcf
+from dm_control_m.mujoco import wrapper
+from dm_control_m.mujoco.wrapper import util
 
 FLAGS = flags.FLAGS
 

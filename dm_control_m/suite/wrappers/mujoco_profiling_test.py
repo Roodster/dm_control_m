@@ -17,8 +17,8 @@
 import collections
 
 from absl.testing import absltest
-from dm_control_M.suite import cartpole
-from dm_control_M.suite.wrappers import mujoco_profiling
+from dm_control_m.suite import cartpole
+from dm_control_m.suite.wrappers import mujoco_profiling
 import numpy as np
 
 

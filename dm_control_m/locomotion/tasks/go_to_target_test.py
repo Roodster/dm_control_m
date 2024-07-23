@@ -18,10 +18,10 @@
 
 from absl.testing import absltest
 
-from dm_control_M import composer
-from dm_control_M.locomotion.arenas import floors
-from dm_control_M.locomotion.tasks import go_to_target
-from dm_control_M.locomotion.walkers import cmu_humanoid
+from dm_control_m import composer
+from dm_control_m.locomotion.arenas import floors
+from dm_control_m.locomotion.tasks import go_to_target
+from dm_control_m.locomotion.walkers import cmu_humanoid
 import numpy as np
 
 

@@ -17,11 +17,11 @@
 import collections
 import itertools
 
-from dm_control_M import composer
-from dm_control_M import mjcf
-from dm_control_M.composer.observation import observable as observable_lib
-from dm_control_M.locomotion.props import target_sphere
-from dm_control_M.mujoco.wrapper import mjbindings
+from dm_control_m import composer
+from dm_control_m import mjcf
+from dm_control_m.composer.observation import observable as observable_lib
+from dm_control_m.locomotion.props import target_sphere
+from dm_control_m.mujoco.wrapper import mjbindings
 import numpy as np
 
 _NUM_RAYS = 10

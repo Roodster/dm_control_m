@@ -17,7 +17,7 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.utils import rewards
+from dm_control_m.utils import rewards
 import numpy as np
 
 

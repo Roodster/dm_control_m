@@ -16,8 +16,8 @@
 """Tests for the dm_control.suite loader."""
 
 from absl.testing import absltest
-from dm_control_M import suite
-from dm_control_M.rl import control
+from dm_control_m import suite
+from dm_control_m.rl import control
 
 
 class LoaderTest(absltest.TestCase):

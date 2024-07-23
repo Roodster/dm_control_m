@@ -16,7 +16,7 @@
 """Tests for `dm_control.mjcf.traversal_utils`."""
 
 from absl.testing import absltest
-from dm_control_M import mjcf
+from dm_control_m import mjcf
 import numpy as np
 
 

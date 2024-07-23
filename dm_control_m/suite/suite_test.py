@@ -17,9 +17,9 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M import suite
-from dm_control_M.mujoco.wrapper.mjbindings import constants
-from dm_control_M.rl import control
+from dm_control_m import suite
+from dm_control_m.mujoco.wrapper.mjbindings import constants
+from dm_control_m.rl import control
 import mock
 import numpy as np
 

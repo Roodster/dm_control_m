@@ -17,8 +17,8 @@
 
 import collections
 
-from dm_control_M import mjcf
-from dm_control_M.composer.observation.observable import base
+from dm_control_m import mjcf
+from dm_control_m.composer.observation.observable import base
 from dm_env import specs
 import numpy as np
 

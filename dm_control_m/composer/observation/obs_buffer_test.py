@@ -16,7 +16,7 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from dm_control_M.composer.observation import obs_buffer
+from dm_control_m.composer.observation import obs_buffer
 import numpy as np
 
 

@@ -16,7 +16,7 @@
 """Tests of the decorators module."""
 
 from absl.testing import absltest
-from dm_control_M.mujoco.testing import decorators
+from dm_control_m.mujoco.testing import decorators
 import mock
 
 

@@ -44,8 +44,8 @@ import os
 from absl import app
 from absl import flags
 from absl import logging
-from dm_control_M.autowrap import binding_generator
-from dm_control_M.autowrap import codegen_util
+from dm_control_m.autowrap import binding_generator
+from dm_control_m.autowrap import codegen_util
 
 _MJMODEL_H = "mjmodel.h"
 _MJXMACRO_H = "mjxmacro.h"

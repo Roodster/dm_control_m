@@ -15,11 +15,11 @@
 """Windowing system that uses GLFW library."""
 
 import functools
-from dm_control_M import _render
-from dm_control_M._render import glfw_renderer
-from dm_control_M.viewer import util
-from dm_control_M.viewer.gui import base
-from dm_control_M.viewer.gui import fullscreen_quad
+from dm_control_m import _render
+from dm_control_m._render import glfw_renderer
+from dm_control_m.viewer import util
+from dm_control_m.viewer.gui import base
+from dm_control_m.viewer.gui import fullscreen_quad
 import glfw
 import numpy as np
 

@@ -16,10 +16,10 @@
 """"A task where players play a soccer game."""
 
 
-from dm_control_M import composer
-from dm_control_M.locomotion.soccer import initializers
-from dm_control_M.locomotion.soccer import observables as observables_lib
-from dm_control_M.locomotion.soccer import soccer_ball
+from dm_control_m import composer
+from dm_control_m.locomotion.soccer import initializers
+from dm_control_m.locomotion.soccer import observables as observables_lib
+from dm_control_m.locomotion.soccer import soccer_ball
 from dm_env import specs
 import numpy as np
 

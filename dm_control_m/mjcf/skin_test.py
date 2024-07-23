@@ -18,9 +18,9 @@
 import os
 
 from absl.testing import absltest
-from dm_control_M.mjcf import skin
+from dm_control_m.mjcf import skin
 
-from dm_control_M.utils import io as resources
+from dm_control_m.utils import io as resources
 
 ASSETS_DIR = os.path.join(os.path.dirname(__file__), 'test_assets')
 SKIN_FILE_PATH = os.path.join(ASSETS_DIR, 'skins/test_skin.skn')

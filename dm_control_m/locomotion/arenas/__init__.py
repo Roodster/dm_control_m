@@ -14,14 +14,14 @@
 # ============================================================================
 """Arenas for Locomotion tasks."""
 
-from dm_control_M.locomotion.arenas.bowl import Bowl
-from dm_control_M.locomotion.arenas.corridors import EmptyCorridor
-from dm_control_M.locomotion.arenas.corridors import GapsCorridor
-from dm_control_M.locomotion.arenas.corridors import WallsCorridor
-from dm_control_M.locomotion.arenas.floors import Floor
-from dm_control_M.locomotion.arenas.labmaze_textures import FloorTextures
-from dm_control_M.locomotion.arenas.labmaze_textures import SkyBox
-from dm_control_M.locomotion.arenas.labmaze_textures import WallTextures
-from dm_control_M.locomotion.arenas.mazes import MazeWithTargets
-from dm_control_M.locomotion.arenas.mazes import RandomMazeWithTargets
-from dm_control_M.locomotion.arenas.padded_room import PaddedRoom
+from dm_control_m.locomotion.arenas.bowl import Bowl
+from dm_control_m.locomotion.arenas.corridors import EmptyCorridor
+from dm_control_m.locomotion.arenas.corridors import GapsCorridor
+from dm_control_m.locomotion.arenas.corridors import WallsCorridor
+from dm_control_m.locomotion.arenas.floors import Floor
+from dm_control_m.locomotion.arenas.labmaze_textures import FloorTextures
+from dm_control_m.locomotion.arenas.labmaze_textures import SkyBox
+from dm_control_m.locomotion.arenas.labmaze_textures import WallTextures
+from dm_control_m.locomotion.arenas.mazes import MazeWithTargets
+from dm_control_m.locomotion.arenas.mazes import RandomMazeWithTargets
+from dm_control_m.locomotion.arenas.padded_room import PaddedRoom

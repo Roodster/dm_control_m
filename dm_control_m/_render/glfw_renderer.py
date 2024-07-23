@@ -15,8 +15,8 @@
 
 """An OpenGL renderer backed by GLFW."""
 
-from dm_control_M._render import base
-from dm_control_M._render import executor
+from dm_control_m._render import base
+from dm_control_m._render import executor
 
 # Re-raise any exceptions that occur during module import as `ImportError`s.
 # This simplifies the conditional imports in `render/__init__.py`.

@@ -19,9 +19,9 @@ import atexit
 import ctypes
 import os
 
-from dm_control_M._render import base
-from dm_control_M._render import constants
-from dm_control_M._render import executor
+from dm_control_m._render import base
+from dm_control_m._render import constants
+from dm_control_m._render import executor
 
 PYOPENGL_PLATFORM = os.environ.get(constants.PYOPENGL_PLATFORM)
 
@@ -36,7 +36,7 @@ elif PYOPENGL_PLATFORM != constants.EGL[0]:
 
 
 # pylint: disable=g-import-not-at-top
-from dm_control_M._render.pyopengl import egl_ext as EGL
+from dm_control_m._render.pyopengl import egl_ext as EGL
 from OpenGL import error
 
 
