@@ -57,9 +57,9 @@ def get_model_and_assets(model_path='cheetah.xml'):
 
 
 def make_model(floor_size=None, terrain=False, rangefinders=False,
-               walls_and_ball=False):
+               walls_and_ball=False, model_path="quadruped.xml"):
   """Returns the model XML string."""
-  xml_string = common.read_model('quadruped.xml')
+  xml_string = common.read_model(model_path)
   parser = etree.XMLParser(remove_blank_text=True)
   mjcf = etree.XML(xml_string, parser)
 
