@@ -51,6 +51,10 @@ _WALLS = ['wall_px', 'wall_py', 'wall_nx', 'wall_ny']
 
 SUITE = containers.TaggedTasks()
 
+def get_model_and_assets(model_path='cheetah.xml'):
+  """Returns a tuple containing the model XML string and a dict of assets."""
+  return common.read_model(model_path), common.ASSETS
+
 
 def make_model(floor_size=None, terrain=False, rangefinders=False,
                walls_and_ball=False):
@@ -105,17 +109,39 @@ def walk(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):
                              **environment_kwargs)
 
 
+# @SUITE.add()
+# def run(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):
+#   """Returns the Run task."""
+#   xml_string = make_model(floor_size=_DEFAULT_TIME_LIMIT * _RUN_SPEED)
+#   physics = Physics.from_xml_string(xml_string, common.ASSETS)
+#   task = Move(desired_speed=_RUN_SPEED, random=random)
+#   environment_kwargs = environment_kwargs or {}
+#   return control.Environment(physics, task, time_limit=time_limit,
+#                              control_timestep=_CONTROL_TIMESTEP,
+#                              **environment_kwargs)
+
+
 @SUITE.add()
 def run(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):
-  """Returns the Run task."""
-  xml_string = make_model(floor_size=_DEFAULT_TIME_LIMIT * _RUN_SPEED)
-  physics = Physics.from_xml_string(xml_string, common.ASSETS)
-  task = Move(desired_speed=_RUN_SPEED, random=random)
-  environment_kwargs = environment_kwargs or {}
-  return control.Environment(physics, task, time_limit=time_limit,
-                             control_timestep=_CONTROL_TIMESTEP,
-                             **environment_kwargs)
+    """Returns the Run task."""
 
+    task = Move(desired_speed=_RUN_SPEED, random=random)
+
+    if environment_kwargs is not None:
+        if environment_kwargs.get('agent_path'):
+            xml_string = make_model(floor_size=_DEFAULT_TIME_LIMIT * _WALK_SPEED, model_path=environment_kwargs.get('agent_path'))
+
+            physics = Physics.from_xml_string(xml_string, common.ASSETS)
+            environment_kwargs.pop('agent_path')
+
+        else:
+            xml_string = make_model(floor_size=_DEFAULT_TIME_LIMIT * _WALK_SPEED)
+            physics = Physics.from_xml_string(xml_string, common.ASSETS)
+                
+    environment_kwargs = environment_kwargs or {}
+    return control.Environment(physics, task, time_limit=time_limit,
+                                control_timestep=_CONTROL_TIMESTEP,
+                                **environment_kwargs)
 
 @SUITE.add()
 def escape(time_limit=_DEFAULT_TIME_LIMIT, random=None,
